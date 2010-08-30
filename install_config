@@ -4,5 +4,6 @@ sudo burg-install "(hd0)"
 sudo update-burg
 
 cp ./configs/.xbindkeysrc ~/
-
+cp ./configs/.hidden ~/
+cp ./configs/.gitconfig ~/
 
