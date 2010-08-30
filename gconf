@@ -33,12 +33,19 @@ gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/format c
 #### shortcuts #####
 ####################
 
-# STRG + M => gnome-terminal
-gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_1 <Control><Alt>m
+# Windows + T => gnome-terminal
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_1 '<Super>t'
 gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_1 gnome-terminal 
 
+#Komplikationen lösen
+gconftool-2 --type string --set /apps/compiz/plugins/expo/allscreens/options/expo_key '<Super>q'
+
+# Windows + E => Nautilus
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_2 '<Super>e'
+gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 nautilus
+
 # laptop only: STRG + Ä => synergy 
-#gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_3 <Control><Alt>adiaeresis
+#gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_3 <Super>adiaeresis
 #gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_3 ~/Projekte/Skripte/PC/SynergyClient.sh 
 
 # STRG + ALT + + => next song

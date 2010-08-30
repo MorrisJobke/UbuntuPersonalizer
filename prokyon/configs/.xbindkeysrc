@@ -4,4 +4,5 @@
 
 # native BACKWARD button
 "xte 'keydown Alt_L' 'key Left' 'keyup Alt_L'"
-	b:8 # button 6
+	b:8 # button 8
+	
