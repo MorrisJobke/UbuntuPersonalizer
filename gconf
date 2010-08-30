@@ -16,6 +16,7 @@ gconftool-2 --type bool --set /apps/indicator-session/suppress_logout_restart_sh
 gconftool-2 --type string --set /apps/nautilus/preferences/default_folder_viewer list_view
 gconftool-2 --type string --set /apps/nautilus/list_view/default_zoom_level smallest
 gconftool-2 --type string --set /apps/nautilus/preferences/show_directory_item_counts always 
+gconftool-2 --type string --set /apps/nautilus/preferences/click_policy 'single'
 
 # eog - delete without prompt
 gconftool-2 --type bool --set /apps/eog/ui/disable_trash_confirmation true 
