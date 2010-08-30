@@ -75,6 +75,9 @@ gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/scrollback_u
 # window size
 gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/default_size_columns '118'
 gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/default_size_rows '32'
-# background color
-gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/background_color '#FFFFFFFFFFFF'
+# theme
+gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/use_theme_colors false
+# disable menubar
+gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/default_show_menubar false
+
 
