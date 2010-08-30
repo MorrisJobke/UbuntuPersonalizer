@@ -31,9 +31,12 @@ gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/format c
 # disable screensaver
 gconftool-2 --type bool --set /apps/gnome-screensaver/idle_activation_enabled false
 
-
 # weather settings
 gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/cities '[<location name="Chemnitz" city="" timezone="Europe/Berlin" latitude="50.000000" longitude="12.000000" code="EDAC" current="true"/>]'
+
+# disable autoopen and autorun
+gconftool-2 --type bool --set /apps/nautilus/preferences/media_automount_open false
+gconftool-2 --type bool --set /apps/nautilus/preferences/media_autorun_never true
 
 ####################
 #### shortcuts #####
