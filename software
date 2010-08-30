@@ -29,7 +29,7 @@ sudo apt-get update
 #### installing ####
 ####################
 
-sudo apt-get -y install apache2 chromium-browser chromium-browser-l10n compiz-fusion-plugins-extra compizconfig-settings-manager conky discus docky gconf-editor gedit-plugins git-core gparted hardware-monitor htop latex-beamer mdadm nmap ntfsprogs openjdk-6-jre openssh-server panflute-applet pdfshuffler php5 picard pidgin pinta pwgen pyrenamer sgt-puzzles shotwell simple-ccsm synergy tasque texlive-full tree ubuntu-restricted-extras unison unison-gtk vim virtualbox-ose virtualbox-ose-guest-utils vlc xautomation xbindkeys backintime-gnome desktop-webmail meld ubuntu-tweak pyroom linuxdcpp pan xournal banshee banshee-extension-lyrics banshee-extension-alarm jumpnbumb-levels burg burg-themes deja-dup
+sudo apt-get -y install apache2 chromium-browser chromium-browser-l10n compiz-fusion-plugins-extra compizconfig-settings-manager conky discus docky gconf-editor gedit-plugins git-core gparted hardware-monitor htop latex-beamer mdadm nmap ntfsprogs openjdk-6-jre openssh-server panflute-applet pdfshuffler php5 picard pidgin pinta pwgen pyrenamer sgt-puzzles shotwell simple-ccsm synergy tasque texlive-full tree ubuntu-restricted-extras unison unison-gtk vim virtualbox-ose virtualbox-ose-guest-utils vlc xautomation xbindkeys backintime-gnome desktop-webmail meld ubuntu-tweak pyroom linuxdcpp pan xournal banshee banshee-extension-lyrics banshee-extension-alarm burg burg-themes deja-dup
 
 # skype
 
