@@ -1,4 +1,0 @@
-#!/bin/sh
-
-cd Projekte
-git clone git@github.com:kabum/Skripte.git
