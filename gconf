@@ -27,11 +27,13 @@ gconftool-2 --type string --set /apps/gwd/mouse_wheel_action shade
 # clock
 gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/custom_format '<sup><span rise="3000" font_desc="Sans 7.5" color="#F0EBE2" weight="normal">%a %d %b</span></sup>%n<sub><span font_desc="Sans 7.5" color="#F0EBE2" weight="bold">%H:%M:%S</span></sub>'
 gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/format custom 
-gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/cities '[<location name="Chemnitz" city="" timezone="Europe/Berlin" latitude="50.000000" longitude="12.000000" code="EDAC" current="true"/>]'
 
 # disable screensaver
 gconftool-2 --type bool --set /apps/gnome-screensaver/idle_activation_enabled false
 
+
+# weather settings
+gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/cities '[<location name="Chemnitz" city="" timezone="Europe/Berlin" latitude="50.000000" longitude="12.000000" code="EDAC" current="true"/>]'
 
 ####################
 #### shortcuts #####
@@ -59,8 +61,6 @@ gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 nau
 # STRG + ALT + # => play/pause
 #gconftool-2 --type string --set /apps/gnome_settings_daemon/keybindings/play '<Control><Alt>numbersign' 
 
-# weather settings
-gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/cities '[<location name="Chemnitz" city="" timezone="Europe/Berlin" latitude="50.000000" longitude="12.000000" code="EDAC" current="true"/>, <location name="" city="Quito" timezone="America/Guayaquil" latitude="-0.150000" longitude="-78.483330" code="SEQU" current="false"/>]'
 
 ####################
 ##### compiz #######

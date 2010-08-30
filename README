@@ -23,6 +23,10 @@
 	Desktop Webmail
 	Pan
 - mehr Lesezeichen: http://www.ubuntu-inside.me/2009/03/howto-display-more-than-5-bookmarks-at.html
+- schwarzer Plymouth: http://wiki.ubuntuusers.de/Plymouth#Hintergrundfarbe-des-Bootsplash-aendern
+
+- Musik kopieren
+
 ##########
 ## Bruno #
 ##########
@@ -30,6 +34,8 @@
 - Autostart
 	Synergy (synergys)
 	Conky (conky)
+- crontab
+	*/15    *   * * *   /home/kabum/Projekte/CSN-Traffic/update.py
 - /etc/fstab
 """
 #RAID

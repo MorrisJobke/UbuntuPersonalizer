@@ -38,4 +38,4 @@ sudo apt-get -y install apache2 chromium-browser chromium-browser-l10n compiz-fu
 
 # sudo apt-get install chromium-codecs-ffmpeg-nonfree elementary-icon-theme elementary-theme 
 
-sudo apt-get -y remove empathy 
+sudo apt-get -y remove empathy ekiga
