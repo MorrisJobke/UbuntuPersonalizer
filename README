@@ -9,8 +9,10 @@
 		- Arbeitsflächenumschalter
 		- Desktop
 		- Panflute
+##########
+## Bruno #
+##########
 
-#Bruno
 - Autostart
 	Synergy (synergys)
 	Conky (conky)
@@ -28,7 +30,10 @@
 """
 - ./bruno
 
-#Helmut
+##########
+# Helmut #
+##########
+
 - Autostart
 	Synergy (~/Projekte/Skripte/PC/SynergyClient.sh)
 	Autorotate (~/Projekte/Skripte/PC/RotateScreen.sh)
