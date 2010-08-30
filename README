@@ -1,11 +1,37 @@
 - Sounds ausschalten
 - Autostart
 	Tasque
-	Synergy (synergys/ ~/Projekte/Skripte/PC/SynergyClient.sh)
-	Autorotate (~/Projekte/Skripte/PC/RotateScreen.sh)
-	Conky (conky)
 	Shortcuts (xbindkeys)
 	Mail Notify
+- Panel anpassen
+	unteres entfernen
+	oben hinzu:
+		- Arbeitsflächenumschalter
+		- Desktop
+		- Panflute
+
+#Bruno
+- Autostart
+	Synergy (synergys)
+	Conky (conky)
+- /etc/fstab
+"""
+#RAID
+/dev/md0			 		/home/kabum/Daten	ext4	defaults			0	2
+# bindings
+/home/kabum/Daten/Bilder			/home/kabum/Bilder	none	bind				0	0
+/home/kabum/Daten/Dokumente			/home/kabum/Dokumente	none	bind				0	0
+/home/kabum/Daten/Vorlagen			/home/kabum/Vorlagen	none	bind				0	0
+/home/kabum/Daten/Videos			/home/kabum/Videos	none	bind				0	0
+/home/kabum/Daten/Öffentliche\040Dokumente	/home/kabum/Öffentlich	none	bind				0	0
+/home/kabum/Daten/Downloads			/home/kabum/Downloads	none	bind				0	0
+"""
+- ./bruno
+
+#Helmut
+- Autostart
+	Synergy (~/Projekte/Skripte/PC/SynergyClient.sh)
+	Autorotate (~/Projekte/Skripte/PC/RotateScreen.sh)
 - Crontab (root)
 	@reboot ~/Projekte/Skripte/PC/UpDown.sh
 	
