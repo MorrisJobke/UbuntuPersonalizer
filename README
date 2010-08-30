@@ -61,7 +61,6 @@
 ##########
 
 - Autostart
-	Synergy (~/Projekte/Skripte/PC/SynergyClient.sh)
 	Autorotate (~/Projekte/Skripte/PC/RotateScreen.sh)
 - Crontab (root)
 	@reboot ~/Projekte/Skripte/PC/UpDown.sh

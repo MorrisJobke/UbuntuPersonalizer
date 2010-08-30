@@ -54,8 +54,8 @@ gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_2 
 gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 nautilus
 
 # laptop only: STRG + Ä => synergy 
-gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_3 <Super>adiaeresis
-gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_3 ~/Projekte/Skripte/SynergyClient.sh 
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_3 '<Super>adiaeresis'
+gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_3 '~/Projekte/Skripte/SynergyClient.sh'
 
 # STRG + ALT + + => next song
 #gconftool-2 --type string --set /apps/gnome_settings_daemon/keybindings/next '<Control><Alt>plus'
