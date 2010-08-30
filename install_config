@@ -3,5 +3,6 @@
 sudo burg-install "(hd0)"
 sudo update-burg
 
-cp ./configs/* ~/
+cp ./configs/.xbindkeysrc ~/
+
 
