@@ -1,0 +1,58 @@
+#!/bin/sh
+
+# no volumes on desktop
+gconftool-2 --type bool --set /apps/nautilus/desktop/volumes_visible false  
+
+# dock doesn't hide
+gconftool-2 --type float --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/FadeOpacity 0.6  
+
+# icons in menu
+gconftool-2 --type bool --set /desktop/gnome/interface/menus_have_icons true 
+
+# instant shutdown
+gconftool-2 --type bool --set /apps/indicator-session/suppress_logout_restart_shutdown true 
+
+# nautilus
+gconftool-2 --type string --set /apps/nautilus/preferences/default_folder_viewer list_view
+gconftool-2 --type string --set /apps/nautilus/list_view/default_zoom_level smallest
+gconftool-2 --type string --set /apps/nautilus/preferences/show_directory_item_counts always 
+
+# eog - delete without prompt
+gconftool-2 --type bool --set /apps/eog/ui/disable_trash_confirmation true 
+
+# roll in window on scroll over titlebar
+gconftool-2 --type string --set /apps/metacity/general/action_middle_click_titlebar minimize
+gconftool-2 --type string --set /apps/gwd/mouse_wheel_action shade 
+
+# clock
+gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/custom_format '<sup><span rise="3000" font_desc="Sans 7.5" color="#F0EBE2" weight="normal">%a %d %b</span></sup>%n<sub><span font_desc="Sans 7.5" color="#F0EBE2" weight="bold">%H:%M:%S</span></sub>'
+gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/format custom 
+
+
+####################
+#### shortcuts #####
+####################
+
+# STRG + M => gnome-terminal
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_1 <Control><Alt>m
+gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_1 gnome-terminal 
+
+# laptop only: STRG + Ä => synergy 
+#gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_3 <Control><Alt>adiaeresis
+#gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_3 ~/Projekte/Skripte/PC/SynergyClient.sh 
+
+# STRG + ALT + + => next song
+gconftool-2 --type string --set /apps/gnome_settings_daemon/keybindings/next '<Control><Alt>plus'
+# STRG + ALT + - => previous song
+gconftool-2 --type string --set /apps/gnome_settings_daemon/keybindings/previous '<Control><Alt>minus'
+# STRG + ALT + # => play/pause
+gconftool-2 --type string --set /apps/gnome_settings_daemon/keybindings/play '<Control><Alt>numbersign' 
+
+# weather settings
+gconftool-2 --type string --set  /apps/panel/applets/clock_screen0/prefs/cities '[<location name="Chemnitz" city="" timezone="Europe/Berlin" latitude="50.000000" longitude="12.000000" code="EDAC" current="true"/>, <location name="" city="Quito" timezone="America/Guayaquil" latitude="-0.150000" longitude="-78.483330" code="SEQU" current="false"/>]'
+
+####################
+##### compiz #######
+####################
+
+gconftool-2 --type string --set /apps/compiz/plugins/decoration/allscreens/options/shadow_match '!title=my_conky'
