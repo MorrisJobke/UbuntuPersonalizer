@@ -1,0 +1,24 @@
+# Unison preferences file
+root = /home/kabum
+root = ssh://kabum@raxxor.csn.tu-chemnitz.de//home/kabum
+
+path = Dokumente
+path = Projekte
+path = .purple/logs
+path = Bilder
+path = .shotwell
+#path = Vorlagen
+
+ignore = Name {.git,.gitignore,*~,.Trash-1000}
+ignore = Name Projekte/AutoConvert
+ignore = Name Projekte/GmailNotify
+ignore = Name Projekte/MailNotify
+ignore = Name Projekte/SWFM
+ignore = Name Projekte/BoxeeGerman
+ignore = Name Projekte/UbuntuPersonalizer
+ignore = Name Projekte/CSN-Traffic
+ignore = Name Projekte/VisualPi
+ignore = Name Projekte/pyJoin
+ignore = Name Projekte/Datenstrukturen
+ignore = Name Projekte/CoverGrabber
+ignore = Name Bilder/Unsortierte

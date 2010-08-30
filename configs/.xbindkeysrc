@@ -1,0 +1,8 @@
+# close window on FORWARD button
+"xte 'keydown Alt_L' 'key F4' 'keyup Alt_L'"
+	b:9 # button 9
+
+# native BACKWARD button
+"xte 'keydown Alt_L' 'key Left' 'keyup Alt_L'"
+	b:8 # button 8
+	

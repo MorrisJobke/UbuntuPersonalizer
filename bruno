@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cp -R ./bruno-config/.unison ~/
+cp -R ./configs/.conkycolors ~/
+cp ./configs/.conkyrc ~/

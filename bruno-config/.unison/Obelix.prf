@@ -1,0 +1,11 @@
+root = /home/kabum/Daten/Videos
+root = /media/Obelix/Filme
+
+path = 1080p
+path = 720p
+#path = Serien
+path = Podcasts
+path = DVDRip
+path = Filme
+
+#follow = Filme
