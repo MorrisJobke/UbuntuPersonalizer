@@ -26,6 +26,8 @@ sudo add-apt-repository ppa:docky-core/ppa
 sudo apt-get update
 sudo apt-get -y upgrade
 
+nautilus -q
+
 ####################
 #### installing ####
 ####################
