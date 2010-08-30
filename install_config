@@ -3,6 +3,5 @@
 sudo burg-install "(hd0)"
 sudo update-burg
 
-rm prokyon/configs/*~
 cp prokyon/configs/* ~/
 
