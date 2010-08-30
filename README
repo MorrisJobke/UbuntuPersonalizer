@@ -1,0 +1,11 @@
+- Sounds ausschalten
+- Autostart
+	Tasque
+	Synergy (synergys/ ~/Projekte/Skripte/PC/SynergyClient.sh)
+	Autorotate (~/Projekte/Skripte/PC/RotateScreen.sh)
+	Conky (conky)
+	Shortcuts (xbindkeys)
+	Mail Notify
+- Crontab (root)
+	@reboot ~/Projekte/Skripte/PC/UpDown.sh
+	
