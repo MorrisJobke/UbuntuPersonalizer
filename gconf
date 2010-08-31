@@ -39,6 +39,9 @@ gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/cities '
 gconftool-2 --type bool --set /apps/nautilus/preferences/media_automount_open false
 gconftool-2 --type bool --set /apps/nautilus/preferences/media_autorun_never true
 
+# enable menu-button
+gconftool-2 --type string --set /apps/metacity/general/button_layout 'close,minimize,maximize:menu'
+
 ####################
 #### shortcuts #####
 ####################
@@ -47,7 +50,7 @@ gconftool-2 --type bool --set /apps/nautilus/preferences/media_autorun_never tru
 gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_1 '<Super>t'
 gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_1 gnome-terminal 
 
-#Komplikationen lösen
+# avoid conflicts
 gconftool-2 --type string --set /apps/compiz/plugins/expo/allscreens/options/expo_key '<Super>q'
 
 # Windows + E => Nautilus
@@ -75,13 +78,17 @@ gconftool-2 --type string --set /apps/compiz/plugins/decoration/allscreens/optio
 ####################
 #### terminal ######
 ####################
+
 # unlimited scrolling
 gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/scrollback_unlimited true
+
 # window size
 gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/default_size_columns '118'
 gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/default_size_rows '32'
+
 # theme
 gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/use_theme_colors false
+
 # disable menubar
 gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/default_show_menubar false
 
