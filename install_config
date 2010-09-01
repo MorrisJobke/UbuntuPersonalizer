@@ -6,4 +6,5 @@ sudo update-burg
 cp ./configs/.xbindkeysrc ~/
 cp ./configs/.hidden ~/
 cp ./configs/.gitconfig ~/
+cp ./configs/.gnome2 ~/
 
