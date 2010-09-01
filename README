@@ -2,8 +2,10 @@
 - mkdir Projekte && cd Projekte
 - git clone git://github.com/kabum/UbuntuPersonalizer.git
 
+- Ubuntu Partner-Repositories hinzufügen (für Skype)
+
 - ./main
-- SSH-keys
+- SSH-Keys
 - Sounds ausschalten
 - Autostart
 	Tasque
@@ -46,6 +48,7 @@
 - crontab
 	*/15    *   * * *   /home/kabum/Projekte/CSN-Traffic/update.py
 - /etc/fstab
+- sudo apt-get -y install mdadm
 """
 #RAID
 /dev/md0			 		/home/kabum/Daten	ext4	defaults			0	2

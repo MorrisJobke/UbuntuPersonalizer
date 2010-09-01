@@ -32,10 +32,9 @@ nautilus -q
 #### installing ####
 ####################
 
-sudo apt-get -y install apache2 chromium-browser chromium-browser-l10n compiz-fusion-plugins-extra compizconfig-settings-manager conky discus docky gconf-editor gedit-plugins git-core gparted hardware-monitor htop latex-beamer mdadm nmap ntfsprogs openjdk-6-jre openssh-server panflute-applet pdfshuffler php5 picard pidgin pinta pwgen pyrenamer sgt-puzzles shotwell simple-ccsm synergy tasque texlive-full tree ubuntu-restricted-extras unison unison-gtk vim virtualbox-ose virtualbox-ose-guest-utils vlc xautomation xbindkeys desktop-webmail meld ubuntu-tweak pyroom linuxdcpp pan xournal banshee banshee-extension-lyrics banshee-extension-alarm burg burg-themes deja-dup gedit-latex-plugin
-
-# skype
-
-# sudo apt-get install chromium-codecs-ffmpeg-nonfree elementary-icon-theme elementary-theme 
+sudo apt-get -y install apache2 banshee banshee-extension-alarm banshee-extension-lyric burg burg-themes chromium-browser chromium-browser-l10n compiz-fusion-plugins-extra compizconfig-settings-manager conky deja-dup desktop-webmail discus docky elementary-icon-theme elementary-theme gconf-editor gedit-latex-plugin gedit-plugins git-core gparted hardware-monitor htop latex-beamer linuxdcp meld nmap ntfsprogs openjdk-6-jre openssh-server pan panflute-applet pdfshuffler php5 picard pidgin pinta pwgen pyrenamer pyroom sgt-puzzles shotwell simple-ccsm skype synergy tasque texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison unison-gtk vim virtualbox-ose virtualbox-ose-guest-utils vlc xautomation xbindkeys xournals
 
 sudo apt-get -y remove empathy ekiga
+
+sudo burg-install "(hd0)"
+sudo update-burg
