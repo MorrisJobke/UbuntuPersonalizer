@@ -96,6 +96,7 @@ gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/default_show
 ####################
 ##### gedit ########
 ####################
+
 gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/current_line/highlight_current_line true
 gconftool-2 --type string --set /apps/gedit-2/preferences/editor/colors/scheme 'oblivion'
 gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/bracket_matching/bracket_matching true
