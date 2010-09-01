@@ -93,3 +93,17 @@ gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/use_theme_co
 gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/default_show_menubar false
 
 
+####################
+##### gedit ########
+####################
+gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/current_line/highlight_current_line true
+gconftool-2 --type string --set /apps/gedit-2/preferences/editor/colors/scheme 'oblivion'
+gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/bracket_matching/bracket_matching true
+gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/auto_indent/auto_indent true
+gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/line_numbers/display_line_numbers true
+gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/right_margin/display_right_margin true
+gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/save/create_backup_copy true
+gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/save/auto_save true
+gconftool-2 --type int --set /apps/gedit-2/preferences/editor/tabs/tabs_size 4
+gconftool-2 --type bool --set /apps/gedit-2/preferences/ui/side_pane/side_pane_visible true
+gconftool-2 --type list --list-type string --set /apps/gedit-2/plugins/active-plugins [tabswitch, GeditLaTeXPlugin,docinfo,filebrowser,sessionsaver,codecomment]
