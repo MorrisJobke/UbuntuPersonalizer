@@ -38,6 +38,10 @@
 
 - Musik kopieren
 
+- Burg: 
+http://gnome-look.org/content/show.php/Fortune+-+BURG+Theme?content=128929
+http://www.burgloader.com/bbs/index.php?topic=25.0
+
 ##########
 ## Bruno #
 ##########
@@ -67,7 +71,8 @@
 ##########
 
 - Autostart
-	Autorotate (~/Projekte/Skripte/PC/RotateScreen.sh)
+	Synergy (~/Projekte/Skripte/SynergyClient.sh)
+	Autorotate (~/Projekte/Skripte/RotateScreen.sh)
 - Crontab (root)
-	@reboot ~/Projekte/Skripte/PC/UpDown.sh
+	@reboot ~/Projekte/Skripte/UpDown.sh
 	
