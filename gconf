@@ -26,7 +26,7 @@ gconftool-2 --type string --set /apps/metacity/general/action_middle_click_title
 gconftool-2 --type string --set /apps/gwd/mouse_wheel_action shade 
 
 # clock
-gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/custom_format '<sup><span rise="3000" font_desc="Sans 7.5" color="#F0EBE2" weight="normal">%a %d %b</span></sup>%n<sub><span font_desc="Sans 7.5" color="#F0EBE2" weight="bold">%H:%M:%S</span></sub>'
+gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/custom_format '<sup><span rise="300" font_desc="Sans 6.7" weight="normal">%a %d %b</span></sup>%n<sub><span font_desc="Sans 7.5" weight="bold">%H:%M:%S</span></sub>'
 gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/format custom 
 
 # disable screensaver
