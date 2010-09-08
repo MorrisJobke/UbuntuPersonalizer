@@ -1,5 +1,8 @@
 #!/bin/sh
 
+sudo apt-get install -y linuxdcpp mdadm pan virtualbox-ose
+
 cp -R ./bruno-config/.unison ~/
 cp -R ./configs/.conkycolors ~/
 cp ./configs/.conkyrc ~/
+cp ./configs/.synergy.conf ~/

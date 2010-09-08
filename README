@@ -50,13 +50,13 @@ http://ubuntu-art.org/content/show.php?content=128211
 ## Bruno #
 ##########
 
+- ./bruno
 - Autostart
 	Synergy (synergys)
 	Conky (conky)
 - crontab
 	*/15    *   * * *   /home/kabum/Projekte/CSN-Traffic/update.py
 - /etc/fstab
-- sudo apt-get -y install mdadm
 """
 #RAID
 /dev/md0			 		/home/kabum/Daten	ext4	defaults			0	2
@@ -68,7 +68,6 @@ http://ubuntu-art.org/content/show.php?content=128211
 /home/kabum/Daten/Öffentliche\040Dokumente	/home/kabum/Öffentlich	none	bind				0	0
 /home/kabum/Daten/Downloads			/home/kabum/Downloads	none	bind				0	0
 """
-- ./bruno
 
 ##########
 # Helmut #

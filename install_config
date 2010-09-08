@@ -4,4 +4,6 @@ cp ./configs/.xbindkeysrc ~/
 cp ./configs/.hidden ~/
 cp ./configs/.gitconfig ~/
 cp -R ./configs/.gnome2 ~/
+cp -R ./configs/.icons ~/
+sudo gtk-update-icon-cache
 

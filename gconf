@@ -28,6 +28,7 @@ gconftool-2 --type string --set /apps/gwd/mouse_wheel_action shade
 # clock
 gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/custom_format '<sup><span rise="300" font_desc="Sans 6.7" weight="normal">%a %d %b</span></sup>%n<sub><span font_desc="Sans 7.5" weight="bold">%H:%M:%S</span></sub>'
 gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/format custom 
+gconftool-2 --type bool --set /apps/panel/applets/clock_screen0/prefs/show_seconds true
 
 # disable screensaver
 gconftool-2 --type bool --set /apps/gnome-screensaver/idle_activation_enabled false
@@ -38,6 +39,9 @@ gconftool-2 --type string --set /apps/panel/applets/clock_screen0/prefs/cities '
 # disable autoopen and autorun
 gconftool-2 --type bool --set /apps/nautilus/preferences/media_automount_open false
 gconftool-2 --type bool --set /apps/nautilus/preferences/media_autorun_never true
+
+# enable delete
+gconftool-2 --type bool --set /apps/nautilus/preferences/enable_delete true
 
 # enable menu-button
 gconftool-2 --type string --set /apps/metacity/general/button_layout 'close,minimize,maximize:menu'
