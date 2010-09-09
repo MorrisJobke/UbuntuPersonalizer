@@ -12,3 +12,4 @@ sudo cp -R ./Burg/MinimalText /boot/burg/themes/
 
 sudo update-burg
 
+chmod 700 ~/.ssh/id_rsa
