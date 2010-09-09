@@ -1,3 +1,2 @@
 #!/bin/sh
-
 echo "hp-wmi" | sudo tee -a /etc/modules
