@@ -1,0 +1,14 @@
+class {
+  kubuntu { image = "$$/kubuntu.png:$$/kubuntu1.png" }
+  ubuntu { image = "$$/ubuntu.png:$$/ubuntu1.png" }
+  fedora { image = "$$/fedora.png:$$/fedora1.png" }
+  memtest { image = "$$/memtest.png:$$/memtest1.png" }
+  macOSX { image = "$$/apple.png:$$/apple1.png" }
+  windows { image = "$$/windows.png:$$/windows1.png" }
+  unknown { image = "$$/unknow.png:$$/unknow1.png" }
+  windows1 { image = "$$/windows.png:$$/windows1.png" }
+  windows2 { image = "$$/windows.png:$$/windows1.png" }
+  suse { image = "$$/suse.png:$$/suse1.png" }
+  linuxmint { image = "$$/mint.png:$$/mint1.png" }
+}
+

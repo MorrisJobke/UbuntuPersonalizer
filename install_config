@@ -7,3 +7,8 @@ cp -R ./configs/.gnome2 ~/
 cp -R ./configs/.icons ~/
 sudo gtk-update-icon-cache
 
+sudo cp -R ./Burg/Minimal /boot/burg/themes/
+sudo cp -R ./Burg/MinimalText /boot/burg/themes/
+
+sudo update-burg
+

@@ -1,0 +1,178 @@
+tools_menu {
+  panel {
+    class = overlay
+
+    panel {
+      attach_hcenter = 0
+      attach_vcenter = 0
+      width = 30
+
+      panel {
+        class = dialog-title
+        image { image = "$$/images/txt-tools.png" attach_left = 0 }
+      }
+
+      panel {
+        class = dialog-body
+
+        text { class = br }
+
+        text {
+          text = "Toggle Mode"
+          command = "menu_toggle_mode"
+          class = text-menu-item
+        }
+        text {
+          text="Terminal"
+          command = "menu_popup term_window"
+          class = text-menu-item
+        }
+        text {
+          text = "Restart"
+          command = reboot
+          class = text-menu-item
+        }
+        text {
+          text = "Shutdown"
+          command = halt
+          class = text-menu-item
+        }
+        text {
+          text = "Help"
+          command = "menu_popup help"
+          class = text-menu-item
+        }
+        text {
+          text = "About"
+          command = "menu_popup about"
+          class = text-menu-item
+        }
+      }
+    }
+  }
+}
+
+about {
+  panel {
+    class = overlay
+
+    panel {
+      attach_hcenter = 0
+      attach_vcenter = 0
+      margin_left = 2
+      width = 60
+
+      panel {
+        class = dialog-title
+        image { image = "$$/images/txt-about.png" attach_left = 0 }
+      }
+
+      panel {
+        class = dialog-body
+
+        text { class = br }
+        text { text = "Sora v0.3 for Burg" class = "dialog-text" }
+        text { class = br }
+        text { text = "Created by Evan Gillies" class = "dialog-text" }
+        text { text = "Designed by Paul Crimi" class = dialog-text }
+        text { class = br }
+        text { text = "Special thanks to Bean for putting together burg" class = dialog-text }
+        text { text = "and teaching me how to use it." class = dialog-text }
+        text { class = br }
+
+        panel {
+          halign = center
+          class = button
+          command = true
+
+          text { text = OK class = button-text }
+        }
+      }
+    }
+  }
+}
+
+help {
+  panel {
+    class = overlay
+
+    panel {
+      attach_hcenter = 0
+      attach_vcenter = 0
+      margin_left = 2
+      width = 48
+
+      panel {
+        class = dialog-title
+        image { image = "$$/images/txt-help.png" attach_left = 0 }
+      }
+
+      panel {
+        class = dialog-body
+
+        text { class = br }
+        text { text = "Shortcut Keys:" class = dialog-text }
+        text { text = "e - Edit current command" class = dialog-text }
+        text { text = "t - Edit current title" class = dialog-text }
+        text { text = "c - Open terminal" class = dialog-text }
+        text { text = "2 - Open two terminals" class = dialog-text }
+        text { text = "h - Show this help window" class = dialog-text }
+        text { text = "i - Show theme information window" class = dialog-text }
+        text { text = "f6 - Next anchor" class = dialog-text }
+        text { text = "f8 - Toggle mode" class = dialog-text }
+        text { text = "f9 - Shutdown" class = dialog-text }
+        text { text = "f10 - Restart" class = dialog-text }
+        text { text = "f5/ctrl+x - Return" class = dialog-text }
+        text { class = br }
+
+        panel {
+          halign = center
+          class = button
+          command = true
+
+          text { text = OK class = button-text }
+        }
+      }
+    }
+  }
+}
+
+term_window {
+  panel {
+    class = terminal
+    width = 100%
+    height = 100%
+    term {
+      width=100%
+      height=100%
+    }
+  }
+}
+
+two_term {
+  panel {
+    width = 100%
+    height = 100%
+    direction = left_to_right
+
+    panel {
+      class = terminal
+      extend = 1
+
+      term {
+        width=100%
+        height=100%
+      }
+    }
+
+    panel {
+      class = terminal
+      extend = 1
+
+      term {
+        width=100%
+        height=100%
+      }
+    }
+  }
+}
