@@ -65,6 +65,10 @@ gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 nau
 gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_3 '<Super>adiaeresis'
 gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_3 '~/Projekte/Skripte/SynergyClient.sh'
 
+# Windows + R => Gedit
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_4 '<Super>r'
+gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_4 gedit
+
 # STRG + ALT + + => next song
 #gconftool-2 --type string --set /apps/gnome_settings_daemon/keybindings/next '<Control><Alt>plus'
 # STRG + ALT + - => previous song
