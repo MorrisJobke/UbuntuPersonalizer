@@ -34,7 +34,7 @@ nautilus -q
 #### installing ####
 ####################
 
-sudo apt-get -y install apache2 banshee banshee-extension-alarm banshee-extension-lyrics burg burg-themes chromium-browser chromium-browser-l10n compiz-fusion-plugins-extra compizconfig-settings-manager conky deja-dup desktop-webmail discus docky elementary-icon-theme elementary-theme gconf-editor gedit-latex-plugin gedit-plugins git-core gparted htop jdownloader latex-beamer meld nmap ntfsprogs openjdk-6-jre openssh-server panflute-applet pdfshuffler php5 picard pidgin pinta pwgen pyrenamer pyroom sgt-puzzles shotwell simple-ccsm skype synergy tasque texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison unison-gtk vim vlc xautomation xbindkeys xournal
+sudo apt-get -y --no-install-recommends install apache2 banshee banshee-extension-alarm banshee-extension-lyrics burg burg-themes chromium-browser chromium-browser-l10n compiz-fusion-plugins-extra compizconfig-settings-manager conky deja-dup desktop-webmail discus docky elementary-icon-theme elementary-theme gconf-editor gedit-latex-plugin gedit-plugins git-core gparted htop jdownloader latex-beamer meld nmap ntfsprogs openjdk-6-jre openssh-server panflute-applet pdfshuffler php5 picard pidgin pinta pwgen pyrenamer pyroom sgt-puzzles shotwell simple-ccsm skype synergy tasque texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison unison-gtk vim vlc xautomation xbindkeys xournal
 
 sudo burg-install "(hd0)"
 sudo update-burg
