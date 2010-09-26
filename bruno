@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt-get install --no-install-recommends -y linuxdcpp mdadm pan virtualbox-ose
+sudo apt-get install --no-install-recommends -y apache2 deja-dup linuxdcpp mdadm meld pan php5 virtualbox-ose
 
 cp -R ./bruno-config/.unison ~/
 cp -R ./configs/.conkycolors ~/

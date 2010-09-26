@@ -6,6 +6,9 @@ gconftool-2 --type bool --set /apps/nautilus/desktop/volumes_visible false
 # dock doesn't hide
 gconftool-2 --type float --set /apps/docky-2/Docky/Interface/DockPreferences/Dock1/FadeOpacity 0.6  
 
+# remove Docky icon
+gconftool-2 --type Boolean --set /apps/docky-2/Docky/Items/DockyItem/ShowDockyItem False
+
 # icons in menu
 gconftool-2 --type bool --set /desktop/gnome/interface/menus_have_icons true 
 
