@@ -1,8 +1,8 @@
 #!/bin/sh
 
-sudo apt-get install --no-install-recommends -y apache2 deja-dup linuxdcpp mdadm meld pan php5 virtualbox-ose
+sudo apt-get install --no-install-recommends -y apache2 conky deja-dup linuxdcpp mdadm meld pan php5 virtualbox-ose
 
 cp -R ./bruno-config/.unison ~/
-cp -R ./configs/.conkycolors ~/
-cp ./configs/.conkyrc ~/
-cp ./configs/.synergy.conf ~/
+cp -R ./bruno-config/.conkycolors ~/
+cp ./bruno-config/.conkyrc ~/
+cp ./bruno-config/.synergy.conf ~/
