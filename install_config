@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "PS1='\u@\h \[\033[1;34m\]\w\[\033[0m\]\\$ '" >> ~/.bashrc
+
 cp ./configs/.xbindkeysrc ~/
 cp ./configs/.hidden ~/
 cp ./configs/.gitconfig ~/
