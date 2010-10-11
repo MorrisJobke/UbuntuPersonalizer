@@ -7,13 +7,13 @@
 ##### chromium-browser #####
 sudo add-apt-repository ppa:chromium-daily/ppa
 ##### elementary-theme elementary-icon-theme #####
-sudo add-apt-repository ppa:elementaryart/ppa
+#sudo add-apt-repository ppa:elementaryart/ppa
 ##### panflute-applet #####
 sudo add-apt-repository ppa:kuliniew/ppa
 ##### pinta ####
-sudo add-apt-repository ppa:moonlight-team/pinta
+#sudo add-apt-repository ppa:moonlight-team/pinta
 ##### shotwell #####
-sudo add-apt-repository ppa:yorba/ppa
+#sudo add-apt-repository ppa:yorba/ppa
 ##### ubuntu tweak #####
 sudo add-apt-repository ppa:tualatrix/ppa
 ##### elementary-nautilus #####
@@ -21,7 +21,7 @@ sudo add-apt-repository ppa:am-monkeyd/nautilus-elementary-ppa
 ##### burg boot loader #####
 sudo add-apt-repository ppa:bean123ch/burg
 ##### docky #####
-sudo add-apt-repository ppa:docky-core/ppa
+#sudo add-apt-repository ppa:docky-core/ppa
 ##### jdownloader #####
 sudo add-apt-repository ppa:jd-team/jdownloader
 
@@ -34,7 +34,7 @@ nautilus -q
 #### installing ####
 ####################
 
-sudo apt-get -y --no-install-recommends install burg burg-themes chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg chromium-codecs-ffmpeg-nonfree compiz-fusion-plugins-extra compizconfig-settings-manager desktop-webmail discus docky elementary-icon-theme elementary-theme gconf-editor gedit-latex-plugin gedit-plugins git-core gparted htop jdownloader latex-beamer nmap ntfsprogs ntp openjdk-6-jre openssh-server panflute-applet pdfshuffler pidgin pinta pwgen pyrenamer pyroom python-feedparser sgt-puzzles shotwell simple-ccsm skype synergy tasque texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison unison-gtk vim vlc xautomation xbindkeys xournal
+sudo apt-get -y --no-install-recommends install burg burg-themes chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg chromium-codecs-ffmpeg-nonfree compiz-fusion-plugins-extra compizconfig-settings-manager desktop-webmail discus docky gconf-editor gedit-latex-plugin gedit-plugins giggle git-core gparted htop jdownloader latex-beamer nmap ntfsprogs ntp openjdk-6-jre openssh-server panflute-applet pdfshuffler pidgin pwgen pyrenamer pyroom python-feedparser sgt-puzzles shotwell simple-ccsm skype synergy tasque texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison unison-gtk vim vlc xautomation xbindkeys xournal
 
 # MailNotify needs python-feedparser
 

@@ -2,12 +2,12 @@
 root = /home/kabum
 root = ssh://kabum@raxxor.csn.tu-chemnitz.de//home/kabum
 
+path = Bilder
 path = Dokumente
 path = Projekte
+path = Vorlagen
 path = .purple/logs
-path = Bilder
 path = .shotwell
-#path = Vorlagen
 
 ignore = Name {.git,.gitignore,*~,.Trash-1000}
 ignore = Name Projekte/AutoConvert
@@ -21,4 +21,7 @@ ignore = Name Projekte/VisualPi
 ignore = Name Projekte/pyJoin
 ignore = Name Projekte/Datenstrukturen
 ignore = Name Projekte/CoverGrabber
+ignore = Name Projekte/Skripte
+ignore = Name Projekte/www
 ignore = Name Bilder/Unsortierte
+ignore = Name Bilder/Wallpaper/Wikipedia-Panoramas
