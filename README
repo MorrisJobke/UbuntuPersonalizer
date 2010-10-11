@@ -2,6 +2,8 @@
 - sudo apt-get install git-core
 - mkdir Projekte && cd Projekte
 - git clone git@github.com:kabum/UbuntuPersonalizer.git
+- git clone git@github.com:kabum/MailNotify.git
+- git clone git@github.com:kabum/Skripte.git
 
 - Ubuntu Partner-Repositories hinzufügen (für Skype)
 
@@ -28,7 +30,6 @@
 	Docky
 - bevorzugte Anwendungen
 	Chromium, Desktop Webmail
-	Banshee
 - Pidgin-Log kopieren
 - Pidgin embeddedvideo: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
 	
