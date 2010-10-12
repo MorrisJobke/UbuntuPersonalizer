@@ -81,4 +81,4 @@ http://ubuntu-art.org/content/show.php?content=128211
 	Autorotate (~/Projekte/Skripte/RotateScreen.sh)
 - Crontab (root)
 	@reboot ~/Projekte/Skripte/UpDown.sh
-	
+- Energiespareinstellungen
