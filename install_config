@@ -17,5 +17,5 @@ sudo update-burg
 
 chmod 700 ~/.ssh/id_rsa
 
-sudo rm -R /usr/share/pixmaps/pidgin/tray/hicolor/*
+sudo rm -fR /usr/share/pixmaps/pidgin/tray/hicolor/*
 sudo cp -R ./configs/pidgin-tray-icons/* /usr/share/pixmaps/pidgin/tray/hicolor/
