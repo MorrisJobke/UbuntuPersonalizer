@@ -5,9 +5,7 @@ certutil -d sql:$HOME/.pki/nssdb -A -t "C,," -n cacert -i /etc/ssl/certs/cacert.
 
 echo "PS1='\u@\h \[\033[1;34m\]\w\[\033[0m\]\\$ '" >> ~/.bashrc
 
-cp ./configs/.xbindkeysrc ~/
 cp ./configs/.hidden ~/
-cp ./configs/.gitconfig ~/
 cp -R ./configs/.gnome2 ~/
 cp -R ./configs/.icons ~/
 sudo gtk-update-icon-cache
