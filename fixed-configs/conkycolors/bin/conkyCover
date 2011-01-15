@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+# Album art with cd theme in conky
+# by helmuthdu
+
+player="`~/.conkycolors/bin/conkyExaile --datatype=CA | sed -e 's/\\\//g'`"
+icon=~/.conkycolors/icons/Players/exaile.png
+cover=/tmp/conkyCover.png
+
+width=`identify -format %w $photo`
+height=`identify -format %h $photo`
+picture_aspect=`echo $width - $height | bc`
+v_aligh=`echo $height / "$height / 5" | bc`
+
+if [ ! -f "$player" ]; then
+	convert ~/.conkycolors/icons/Vinyl/base.png $icon -geometry +36+18 -composite $cover
+else
+	cp "$player" $cover
+	if [ $picture_aspect -gt "0" ]; then
+		convert $cover -thumbnail 224x112 $cover
+		convert $cover -crop 112x112+$v_aligh+0  +repage $cover
+	else
+		convert $cover -thumbnail 112x224 $cover
+		convert $cover -crop 112x112+0+$v_aligh  +repage $cover
+	fi
+	convert ~/.conkycolors/icons/Vinyl/base.png $cover -geometry +32+6 -composite ~/.conkycolors/icons/Vinyl/top.png -geometry +0+0 -composite $cover
+fi
+
+exit 0

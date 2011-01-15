@@ -17,7 +17,8 @@ elif dec < 1:
 	icon = "A"
 else:
 	icon = str(dec)
-print "${voffset 2}${color0}${font Pie charts for maps:size=14}"+icon+"${font}${color}   ${voffset -5}Root: ${font Liberation Sans:style=Bold:size=8}${color1}${fs_free_perc /}%${color}${font} ${alignr}${color2}${fs_free /}${color}"
+print "${voffset 3}${color0}${font Pie charts for maps:size=15}"+icon+"${font}${color}   ${voffset -9}Root: ${font Droid Sans:style=Bold:size=8}${color1}${fs_free_perc /}%${color}${font}"
+print "${offset 29}F: ${font Droid Sans:style=Bold:size=8}${color2}${fs_free /}${color}${font} U: ${font Droid Sans:style=Bold:size=8}${color2}${fs_used /}${color}${font} "
 
 # /home folder (if its a separate mount point)
 if os.path.ismount("/home"):
@@ -36,7 +37,8 @@ if os.path.ismount("/home"):
 	else:
 		icon = str(dec)
 	# end calculation icon
-	print "${voffset 4}${color0}${font Pie charts for maps:size=14}"+icon+"${font}${color}   ${voffset -5}Home: ${font Liberation Sans:style=Bold:size=8}${color1}${fs_free_perc /home}%${color}${font} ${alignr}${color2}${fs_free /home}${color}"
+	print "${voffset 2}${color0}${font Pie charts for maps:size=15}"+icon+"${font}${color}   ${voffset -9}Home: ${font Droid Sans:style=Bold:size=8}${color1}${fs_free_perc /home}%${color}${font}"
+	print "${offset 29}F: ${font Droid Sans:style=Bold:size=8}${color2}${fs_free /home}${color}${font} U: ${font Droid Sans:style=Bold:size=8}${color2}${fs_used /home}${color}${font}"
 
 # folder in /media
 for device in os.listdir("/media/"):
@@ -56,4 +58,5 @@ for device in os.listdir("/media/"):
 		else:
 			icon = str(dec)
 		# end calculation dec
-		print "${voffset 4}${color0}${font Pie charts for maps:size=14}"+icon+"${font}${color}   ${voffset -5}"+device.capitalize()+": ${font Liberation Sans:style=Bold:size=8}${color1}${fs_free_perc /media/"+device+"}%${color}${font} ${alignr}${color2}${fs_free /media/"+device+"}${color}"
+		print "${voffset 2}${color0}${font Pie charts for maps:size=15}"+icon+"${font}${color}   ${voffset -9}"+device.capitalize()+": ${font Droid Sans:style=Bold:size=8}${color1}${fs_free_perc /media/"+device+"}%${color}${font}"
+		print "${offset 29}F: ${font Droid Sans:style=Bold:size=8}${color2}${fs_free /media/"+device+"}${color}${font} U: ${font Droid Sans:style=Bold:size=8}${color2}${fs_used /media/"+device+"}${color}${font}"

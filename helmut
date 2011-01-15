@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "hp-wmi" | sudo tee -a /etc/modules
-sudo apt-get install --no-install-recommends -y gnome-phone-manager
+sudo apt-get install pan

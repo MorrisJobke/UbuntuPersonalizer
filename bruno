@@ -1,8 +1,9 @@
 #!/bin/sh
 
-sudo apt-get install --no-install-recommends -y apache2 conky deja-dup linuxdcpp mdadm meld pan php5 picard virtualbox-ose
+sudo apt-get install -y conky meld picard
+sudo apt-get install --no-install-recommends -y mdadm
 
-cp -R ./bruno-config/.unison ~/
-cp -R ./bruno-config/.conkycolors ~/
-cp ./bruno-config/.conkyrc ~/
-cp ./bruno-config/.synergy.conf ~/
+ln -s Projekte/UbuntuPersonalizer/fixed-config/unison /home/kabum/.unison
+ln -s Projekte/UbuntuPersonalizer/fixed-config/conkycolors /home/kabum/.conkycolors
+ln -s Projekte/UbuntuPersonalizer/fixed-config/conkyrc /home/kabum/.conkyrc
+ln -s Projekte/UbuntuPersonalizer/fixed-config/synergy.conf /home/kabum/.synergy.conf
