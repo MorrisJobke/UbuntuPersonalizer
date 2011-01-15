@@ -10,10 +10,8 @@ sudo add-apt-repository ppa:chromium-daily/ppa
 #sudo add-apt-repository ppa:elementaryart/ppa
 ##### panflute-applet #####
 sudo add-apt-repository ppa:kuliniew/ppa
-##### pinta ####
-#sudo add-apt-repository ppa:moonlight-team/pinta
 ##### shotwell #####
-#sudo add-apt-repository ppa:yorba/ppa
+sudo add-apt-repository ppa:yorba/ppa
 ##### ubuntu tweak #####
 sudo add-apt-repository ppa:tualatrix/ppa
 ##### elementary-nautilus #####
@@ -24,6 +22,10 @@ sudo add-apt-repository ppa:bean123ch/burg
 #sudo add-apt-repository ppa:docky-core/ppa
 ##### jdownloader #####
 sudo add-apt-repository ppa:jd-team/jdownloader
+##### osd-lyrics #####
+sudo add-apt-repository ppa:osd-lyrics/ppa
+##### faenza-icon-theme #####
+sudo add-apt-repository ppa:tiheum/equinox
 
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -32,15 +34,15 @@ sudo apt-get -y upgrade
 #### installing ####
 ####################
 
-sudo apt-get -y install nautilus ubuntu-restricted-extras
+sudo apt-get -y install nautilus
 
 nautilus -q
 
-sudo apt-get -y --no-install-recommends install burg burg-themes chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg compiz-fusion-plugins-extra compizconfig-settings-manager desktop-webmail discus docky gconf-editor gedit-latex-plugin gedit-plugins giggle git-core gparted htop jdownloader latex-beamer libnss3-tools nmap ntfsprogs ntp openjdk-6-jre openssh-server panflute-applet pdfshuffler pidgin pwgen pyrenamer pyroom python-feedparser sgt-puzzles simple-ccsm skype synergy tasque texlive-full tree ubuntu-tweak unison unison-gtk vim vlc xautomation xbindkeys xournal
+sudo apt-get -y install burg burg-themes chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg compiz-fusion-plugins-extra compizconfig-settings-manager desktop-webmail discus docky faenza-icon-theme gconf-editor gedit-latex-plugin gedit-plugins giggle git-core gparted htop jdownloader latex-beamer libnss3-tools nmap ntfsprogs ntp openjdk-6-jre openssh-server osdlyrics panflute-applet pdfshuffler pidgin pwgen pyrenamer pyroom python-feedparser sgt-puzzles simple-ccsm skype synergy tasque texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison unison-gtk vim vlc xautomation xbindkeys xournal
 
 # MailNotify needs python-feedparser
 
 sudo burg-install "(hd0)"
 sudo update-burg
 
-#sudo apt-get -y remove
+sudo apt-get -y remove empathy empathy-common
