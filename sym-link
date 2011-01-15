@@ -1,6 +1,7 @@
 #!/bin/sh 
 
 ln -s Projekte/UbuntuPersonalizer/fixed-config/xbindkeysrc /home/kabum/.xbindkeysrc
+ln -s Projekte/UbuntuPersonalizer/fixed-config/gitconfig /home/kabum/.gitconfig
 
 
 
