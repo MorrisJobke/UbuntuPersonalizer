@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "hp-wmi" | sudo tee -a /etc/modules
-sudo apt-get install pan
+sudo apt-get install -y pan
