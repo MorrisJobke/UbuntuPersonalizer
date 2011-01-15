@@ -118,4 +118,4 @@ gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/save/create_backu
 gconftool-2 --type bool --set /apps/gedit-2/preferences/editor/save/auto_save true
 gconftool-2 --type int --set /apps/gedit-2/preferences/editor/tabs/tabs_size 4
 gconftool-2 --type bool --set /apps/gedit-2/preferences/ui/side_pane/side_pane_visible true
-gconftool-2 --type list --list-type string --set /apps/gedit-2/plugins/active-plugins [tabswitch,GeditLaTeXPlugin,docinfo,filebrowser,sessionsaver,codecomment]
+gconftool-2 --type list --list-type string --set /apps/gedit-2/plugins/active-plugins [tabswitch,folding,autocomplete,GeditLaTeXPlugin,docinfo,filebrowser,sessionsaver,codecomment]
