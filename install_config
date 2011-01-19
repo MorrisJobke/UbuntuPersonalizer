@@ -18,4 +18,4 @@ sudo update-burg
 chmod 700 ~/.ssh/id_rsa
 
 sudo rm -fR /usr/share/pixmaps/pidgin/tray/hicolor/*
-sudo cp -R ./configs/pidgin-tray-icons/* /usr/share/pixmaps/pidgin/tray/hicolor/
+sudo cp -R ./Pidgin-Icons/hicolor-dark-panel/* /usr/share/pixmaps/pidgin/tray/hicolor/
