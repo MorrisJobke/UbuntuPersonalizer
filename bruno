@@ -3,7 +3,7 @@
 sudo apt-get install -y conky meld picard
 sudo apt-get install --no-install-recommends -y mdadm
 
-ln -s Projekte/UbuntuPersonalizer/fixed-config/unison /home/kabum/.unison
-ln -s Projekte/UbuntuPersonalizer/fixed-config/conkycolors /home/kabum/.conkycolors
-ln -s Projekte/UbuntuPersonalizer/fixed-config/conkyrc /home/kabum/.conkyrc
-ln -s Projekte/UbuntuPersonalizer/fixed-config/synergy.conf /home/kabum/.synergy.conf
+ln -s Projekte/UbuntuPersonalizer/fixed-configs/unison /home/kabum/.unison
+ln -s Projekte/UbuntuPersonalizer/fixed-configs/conkycolors /home/kabum/.conkycolors
+ln -s Projekte/UbuntuPersonalizer/fixed-configs/conkyrc /home/kabum/.conkyrc
+ln -s Projekte/UbuntuPersonalizer/fixed-configs/synergy.conf /home/kabum/.synergy.conf
