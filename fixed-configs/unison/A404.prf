@@ -1,6 +1,0 @@
-root = /home/kabum/Daten/Musik/Aktuelle
-root = /media/A404/Music
-
-perms = 0
-ignore = Name .mediaartlocal
-ignore = Name _arcthumb

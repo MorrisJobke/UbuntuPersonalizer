@@ -12,6 +12,7 @@ path = .ssh/config
 path = .local/share/tomboy
 
 ignore = Name {.git,.gitignore,*~,.Trash-1000,.*.swp}
+ignore = Name Dokumente/Schule
 ignore = Name Projekte/CoverGrabber
 ignore = Name Projekte/CSN-Traffic
 ignore = Name Projekte/JavaInsel
