@@ -1,6 +1,7 @@
 # Unison preferences file
 root = /home/kabum
-root = ssh://raxxor.csn.tu-chemnitz.de//home/kabum
+# root = ssh://raxxor.csn.tu-chemnitz.de//home/kabum
+root = ssh://helmut.local//home/kabum
 
 path = Bilder
 path = Dokumente
@@ -13,6 +14,8 @@ path = .local/share/tomboy
 
 ignore = Name {.git,.gitignore,*~,.Trash-1000,.*.swp}
 ignore = Name Dokumente/Schule
+ignore = Name Dokumente/Studium/01 - WS 2009-2010
+ignore = Name Dokumente/Studium/02 - SS 2010
 ignore = Name Projekte/CoverGrabber
 ignore = Name Projekte/CSN-Traffic
 ignore = Name Projekte/JavaInsel

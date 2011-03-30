@@ -2,7 +2,7 @@
 
 ln -s Projekte/UbuntuPersonalizer/fixed-configs/xbindkeysrc /home/kabum/.xbindkeysrc
 ln -s Projekte/UbuntuPersonalizer/fixed-configs/gitconfig /home/kabum/.gitconfig
-ln -s Projekte/UbuntuPersonalizer/fixed-configs/sshconfig /home/kabum/.ssh/config
+ln -s ../Projekte/UbuntuPersonalizer/fixed-configs/sshconfig /home/kabum/.ssh/config
 
 
 

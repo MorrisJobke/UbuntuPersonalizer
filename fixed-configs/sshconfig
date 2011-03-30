@@ -8,19 +8,17 @@ Host helmut
 Host uni
 	HostName way.hrz.tu-chemnitz.de
 	User mjob
+	ServerAliveInterval 10
 Host uni2
 	HostName login.tu-chemnitz.de
 	User mjob
+	ServerAliveInterval 10
 Host mutti
 	HostName ramona-desktop.local
 	User ramona
 Host idefix
 	HostName 192.168.178.20
 	User jobke
-Host webschach
-	HostName webschach.net
-	Port 64893
-	User wsmj783
 Host bruno-tunnel
 	HostName localhost
 	Port 4321
@@ -28,3 +26,6 @@ Host bruno-tunnel
 Host bocki
 	HostName bocki.csn.tu-chemnitz.de
 	User bocki
+Host eckat
+	HostName webschach.net
+	Port 53876
