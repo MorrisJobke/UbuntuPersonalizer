@@ -1,53 +1,10 @@
-TODO:
-- ppas:
-	- jupiter
-	- touchpad indicator
-
-
-- git clone git@github.com:kabum/MailNotify.git
-- git clone git@github.com:kabum/Skripte.git
-
-- Autostart
-	Shortcuts (xbindkeys)
-	Mail Notify (/home/kabum/Projekte/MailNotify/main.py)
 - bevorzugte Anwendungen
 	Desktop Webmail
-- Pidgin-Log kopieren
 - Pidgin embeddedvideo: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
 	
 - Ubuntu One
-- Google Kalender: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/
-
-- Musik kopieren
 
 - JDownloader Icon Pack
 http://rockrknight.deviantart.com/#/d2y3teq
 
-##########
-## Bruno #
-##########
 
-- ./bruno
-- Autostart
-	Synergy (synergys)
-
-##########
-# Helmut #
-##########
-
-- ./helmut
-
-- Autostart
-	Synergy (~/Projekte/Skripte/SynergyClient.sh)
-	Autorotate (~/Projekte/Skripte/RotateScreen.sh)
-- Crontab (root)
-	@reboot ~/Projekte/Skripte/UpDown.sh
-- Energiespareinstellungen
-
-- VPN einrichten http://www.tu-chemnitz.de/urz/netz/vpn/vpnc.html
-
-
-###########
-# Sources #
-###########
-http://gnome-look.org/content/show.php/Pidgin+Tray+Icons?content=119879
