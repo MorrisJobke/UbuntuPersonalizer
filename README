@@ -4,42 +4,23 @@ TODO:
 	- touchpad indicator
 
 
-- SSH-Keys
-- sudo apt-get install git-core
-- mkdir Projekte && cd Projekte
-- git clone git@github.com:kabum/UbuntuPersonalizer.git
 - git clone git@github.com:kabum/MailNotify.git
 - git clone git@github.com:kabum/Skripte.git
 
 - Ubuntu Partner-Repositories hinzufügen (für Skype)
 
 - ./main
-- Terminal (schwarz auf weiß)
-- Sounds ausschalten
 - Autostart
-	Tasque
 	Shortcuts (xbindkeys)
 	Mail Notify (/home/kabum/Projekte/MailNotify/main.py)
-- Panel anpassen
-	unteres entfernen
-	oben hinzu:
-		- Arbeitsflächenumschalter
-		- Panflute
-- Compiz
-	Grid aktivieren
 - Einstellungen
-	Chromium (Sync, Design)
-	Desktop Webmail
-	Pan
 	Docky
 	Panflute
-	Shotwell (Fotos-Ordner)
 - bevorzugte Anwendungen
-	Chromium, Desktop Webmail
+	Desktop Webmail
 - Pidgin-Log kopieren
 - Pidgin embeddedvideo: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
 	
-- mehr Lesezeichen: http://www.ubuntu-inside.me/2009/03/howto-display-more-than-5-bookmarks-at.html
 - schwarzer Plymouth: http://wiki.ubuntuusers.de/Plymouth#Hintergrundfarbe-des-Bootsplash-aendern
 - Ubuntu One
 - Google Kalender: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/

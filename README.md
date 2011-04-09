@@ -11,6 +11,12 @@ UbuntuPersonalizer for Natty
 * `./configure-gconf`
 * `./install-sym-links`
 * Uhr einstellen
+* Sound ausschalten
+* Einstellungen
+*	Chromium
+*	Desktop Webmail
+*	Shotwell
+* 
 
 Bruno
 -----
