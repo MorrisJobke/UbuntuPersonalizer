@@ -8,6 +8,7 @@ UbuntuPersonalizer for Natty
 		git clone git@github.com:kabum/UbuntuPersonalizer.git
 		git clone git@github.com:kabum/MailNotify.git
 		git clone git@github.com:kabum/Skripte.git
+		cd UbuntuPersonalizer
 		./main
 
 * settings
