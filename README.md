@@ -10,16 +10,17 @@ UbuntuPersonalizer for Natty
 * `./install-config`
 * `./configure-gconf`
 * `./install-sym-links`
-* Uhr einstellen
-* Sound ausschalten
 * Einstellungen
 	* Chromium
 	* Desktop Webmail
 	* Shotwell
+	* Uhr
+	* Sound ausschalten
 
 Bruno
 -----
-* `./install-software-bruno`
-* `./configure-raid`
-* `./install-sym-links-bruno`
+
+	./install-software-bruno
+	./configure-raid
+	./install-sym-links-bruno
 
