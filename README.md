@@ -13,10 +13,9 @@ UbuntuPersonalizer for Natty
 * Uhr einstellen
 * Sound ausschalten
 * Einstellungen
-*	Chromium
-*	Desktop Webmail
-*	Shotwell
-* 
+** Chromium
+** Desktop Webmail
+** Shotwell
 
 Bruno
 -----
