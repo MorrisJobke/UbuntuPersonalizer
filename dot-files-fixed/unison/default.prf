@@ -9,7 +9,6 @@ path = Projekte
 path = Vorlagen
 path = .purple/logs
 path = .shotwell
-path = .ssh/config
 path = .local/share/tomboy
 
 ignore = Name {.git,.gitignore,*~,.Trash-1000,.*.swp}
