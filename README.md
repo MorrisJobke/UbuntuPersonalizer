@@ -1,14 +1,15 @@
 UbuntuPersonalizer for Natty
 ============================
 
-	sudo apt-get install git-core
-	mkdir Projekte && cd Projekte
-	git clone git@github.com:kabum/UbuntuPersonalizer.git
-	git clone git@github.com:kabum/MailNotify.git
-	git clone git@github.com:kabum/Skripte.git
-	./main
-
 * importing SSH keys
+
+		sudo apt-get install git-core
+		mkdir Projekte && cd Projekte
+		git clone git@github.com:kabum/UbuntuPersonalizer.git
+		git clone git@github.com:kabum/MailNotify.git
+		git clone git@github.com:kabum/Skripte.git
+		./main
+
 * settings
 	* Chromium
 	* Desktop Webmail
@@ -42,7 +43,7 @@ Helmut
 	* autorotate (~/Projekte/Skripte/RotateScreen.sh)
 * crontab (root)
 
-	@reboot ~/Projekte/Skripte/UpDown.sh
+		@reboot ~/Projekte/Skripte/UpDown.sh
 
 * VPN http://www.tu-chemnitz.de/urz/netz/vpn/vpnc.html
 * energy managment
