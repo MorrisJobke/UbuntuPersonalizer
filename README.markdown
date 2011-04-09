@@ -1,6 +1,13 @@
 UbuntuPersonalizer for Natty
 ============================
 
+Todo
+----
+* shortcuts on Helmut
+
+Main
+----
+
 * importing SSH keys
 
 		sudo apt-get install git-core
