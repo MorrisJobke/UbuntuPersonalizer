@@ -11,12 +11,12 @@ UbuntuPersonalizer for Natty
 	./install-sym-links
 
 * importing SSH keys
-* Einstellungen
+* settings
 	* Chromium
 	* Desktop Webmail
 	* Shotwell
-	* Uhr
-	* Sound ausschalten
+	* clock
+	* disable sounds
 
 Bruno
 -----
