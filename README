@@ -21,18 +21,10 @@ TODO:
 - Pidgin-Log kopieren
 - Pidgin embeddedvideo: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
 	
-- schwarzer Plymouth: http://wiki.ubuntuusers.de/Plymouth#Hintergrundfarbe-des-Bootsplash-aendern
 - Ubuntu One
 - Google Kalender: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/
 
 - Musik kopieren
-
-- Burg: 
-http://gnome-look.org/content/show.php/Minimal+theme+for+Burg?content=125032
-http://www.burgloader.com/bbs/index.php?topic=25.0
-
-- Monoblin + Victory:
-http://ubuntu-art.org/content/show.php?content=128211
 
 - JDownloader Icon Pack
 http://rockrknight.deviantart.com/#/d2y3teq
@@ -44,21 +36,6 @@ http://rockrknight.deviantart.com/#/d2y3teq
 - ./bruno
 - Autostart
 	Synergy (synergys)
-	Conky (conky)
-- crontab
-	*/15    *   * * *   /home/kabum/Projekte/CSN-Traffic/update.py
-- /etc/fstab
-"""
-#RAID
-/dev/md0			 		/home/kabum/Daten	ext4	defaults			0	2
-# bindings
-/home/kabum/Daten/Bilder			/home/kabum/Bilder	none	bind				0	0
-/home/kabum/Daten/Dokumente			/home/kabum/Dokumente	none	bind				0	0
-/home/kabum/Daten/Vorlagen			/home/kabum/Vorlagen	none	bind				0	0
-/home/kabum/Daten/Videos			/home/kabum/Videos	none	bind				0	0
-/home/kabum/Daten/Öffentliche\040Dokumente	/home/kabum/Öffentlich	none	bind				0	0
-/home/kabum/Daten/Downloads			/home/kabum/Downloads	none	bind				0	0
-"""
 
 ##########
 # Helmut #
