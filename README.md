@@ -22,11 +22,11 @@ UbuntuPersonalizer for Natty
 * copy
 	* music
 	* Pidgin logs
-* Pidgin embeddedvideo [link][id1]
-* Google calendar [link][id2]
+* Pidgin embeddedvideo [link][1]
+* Google calendar [link][2]
 
-[id1]: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
-[id2]: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/
+[1]: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
+[2]: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/
 
 
 
