@@ -44,5 +44,12 @@ gconftool-2 --type int --set /apps/gedit-2/preferences/editor/tabs/tabs_size 4
 gconftool-2 --type bool --set /apps/gedit-2/preferences/ui/side_pane/side_pane_visible true
 gconftool-2 --type list --list-type string --set /apps/gedit-2/plugins/active-plugins [tabswitch,modelines,docinfo,filebrowser,sessionsaver,codecomment]
 
-
-
+# banshee
+gconftool-2 --type string --set /apps/banshee-1/library/file_pattern '%track_number% - %title%'
+gconftool-2 --type string --set /apps/banshee-1/library/folder_pattern '%album_artist%%path_sep%%year% - %album%'
+gconftool-2 --type bool --set /apps/banshee-1/library/sort_albums_by_year true
+gconftool-2 --type bool --set /apps/banshee-1/library/write_metadata true
+gconftool-2 --type bool --set /apps/banshee-1/library/write_rating true
+gconftool-2 --type string --set /apps/banshee-1/playback/repeat_mode 'repeat_all'
+gconftool-2 --type string --set /apps/banshee-1/playback/shuffle_mode 'shuffle_song'
+gconftool-2 --type bool --set /apps/banshee-1/player_engine/replay_gain_enabled true

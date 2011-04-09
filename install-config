@@ -8,6 +8,7 @@ echo "PS1='\u@\h \[\033[1;34m\]\w\[\033[0m\]\\$ '" >> ~/.bashrc
 cp ./dot-files/hidden ~/.hidden
 cp -R ./dot-files/icons ~/.icons
 cp -R ./dot-files/gnome2 ~/.gnome2
+mkdir -p ~/.purple/logs
 
 sudo gtk-update-icon-cache
 
