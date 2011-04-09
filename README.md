@@ -1,9 +1,6 @@
 UbuntuPersonalizer for Natty
 ============================
 
-	./install-software-bruno
-	./configure-raid
-	./install-sym-links-bruno
 	sudo apt-get install git-core
 	mkdir Projekte && cd Projekte
 	git clone git@github.com:kabum/UbuntuPersonalizer.git
