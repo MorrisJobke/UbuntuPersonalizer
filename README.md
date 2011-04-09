@@ -17,8 +17,8 @@ UbuntuPersonalizer for Natty
 	* clock
 	* disable sounds
 * autostart apps
-	* shortcuts (xbindkeys)
-	* MailNotify (/home/kabum/Projekte/MailNotify/main.py)
+	* shortcuts (`xbindkeys`)
+	* MailNotify (`/home/kabum/Projekte/MailNotify/main.py`)
 * copy
 	* music
 	* Pidgin logs
@@ -39,8 +39,8 @@ Helmut
 	./helmut
 	
 * autostart apps
-	* synergy (~/Projekte/Skripte/SynergyClient.sh)
-	* autorotate (~/Projekte/Skripte/RotateScreen.sh)
+	* synergy (`~/Projekte/Skripte/SynergyClient.sh`)
+	* autorotate (`~/Projekte/Skripte/RotateScreen.sh`)
 * crontab (root)
 
 		@reboot ~/Projekte/Skripte/UpDown.sh
