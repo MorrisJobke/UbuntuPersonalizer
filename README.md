@@ -1,9 +1,6 @@
 UbuntuPersonalizer for Natty
 ============================
 
-* importing SSH keys
-* call
-
 	./install-software-bruno
 	./configure-raid
 	./install-sym-links-bruno
@@ -16,6 +13,7 @@ UbuntuPersonalizer for Natty
 	./configure-gconf
 	./install-sym-links
 
+* importing SSH keys
 * Einstellungen
 	* Chromium
 	* Desktop Webmail
