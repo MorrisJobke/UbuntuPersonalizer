@@ -2,8 +2,8 @@ UbuntuPersonalizer for Natty
 ============================
 
 * importing SSH keys
-
-	./sudo apt-get install git-core
+	
+	sudo apt-get install git-core
 	mkdir Projekte && cd Projekte
 	git clone git@github.com:kabum/UbuntuPersonalizer.git
 	./adding-ppas
@@ -11,7 +11,7 @@ UbuntuPersonalizer for Natty
 	./install-config
 	./configure-gconf
 	./install-sym-links
-	
+
 * Einstellungen
 	* Chromium
 	* Desktop Webmail
