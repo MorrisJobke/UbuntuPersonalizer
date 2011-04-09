@@ -22,11 +22,9 @@ UbuntuPersonalizer for Natty
 * copy
 	* music
 	* Pidgin logs
-* Pidgin embeddedvideo [link][1]
-* Google calendar [link][2]
+* [Pidgin embeddedvideo][1]
+* [Google calendar][2]
 
-[1]: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
-[2]: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/
 
 
 
@@ -50,5 +48,9 @@ Helmut
 
 		@reboot ~/Projekte/Skripte/UpDown.sh
 
-* VPN http://www.tu-chemnitz.de/urz/netz/vpn/vpnc.html
+* [VPN][3]
 * energy managment
+
+[1]: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
+[2]: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/
+[3]:  http://www.tu-chemnitz.de/urz/netz/vpn/vpnc.html
