@@ -3,6 +3,8 @@
 sudo apt-get update
 sudo apt-get -y upgrade
 
-sudo apt-get -y install chromium-browser compizconfig-settings-manager desktop-webmail discus gedit-plugins giggle htop jdownloader latex-beamer libnss3-tools nmap ntfsprogs ntp openssh-server pdfshuffler pidgin pwgen sgt-puzzles synergy texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison-gtk vim vlc xautomation xbindkeys xournal
+sudo apt-get -y install chromium-browser compizconfig-settings-manager desktop-webmail discus gconf-editor gedit-plugins giggle git-core htop jdownloader latex-beamer libnss3-tools nmap ntfsprogs ntp openssh-server pdfshuffler pidgin pwgen pyrenamer python-feedparser skype sgt-puzzles synergy texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison-gtk vim vlc xautomation xbindkeys xournal
+
+# MailNotify needs python-feedparser
 
 sudo apt-get -y remove empathy empathy-common 

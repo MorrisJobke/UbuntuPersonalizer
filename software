@@ -1,48 +1,17 @@
 #!/bin/sh
 
-####################
-### adding ppa's ###
-####################
-
-##### chromium-browser #####
-sudo add-apt-repository ppa:chromium-daily/ppa
 ##### elementary-theme elementary-icon-theme #####
 #sudo add-apt-repository ppa:elementaryart/ppa
-##### panflute-applet #####
-sudo add-apt-repository ppa:kuliniew/ppa
-##### shotwell #####
-sudo add-apt-repository ppa:yorba/ppa
-##### ubuntu tweak #####
-sudo add-apt-repository ppa:tualatrix/ppa
 ##### elementary-nautilus #####
 sudo add-apt-repository ppa:am-monkeyd/nautilus-elementary-ppa
-##### burg boot loader #####
-sudo add-apt-repository ppa:bean123ch/burg
-##### docky #####
-#sudo add-apt-repository ppa:docky-core/ppa
-##### jdownloader #####
-sudo add-apt-repository ppa:jd-team/jdownloader
 ##### osd-lyrics #####
 sudo add-apt-repository ppa:osd-lyrics/ppa
 ##### faenza-icon-theme #####
 sudo add-apt-repository ppa:tiheum/equinox
 
-sudo apt-get update
-sudo apt-get -y upgrade
-
-####################
-#### installing ####
-####################
-
 sudo apt-get -y install nautilus
 
 nautilus -q
 
-sudo apt-get -y install burg burg-themes chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg compiz-fusion-plugins-extra compizconfig-settings-manager desktop-webmail discus docky faenza-icon-theme gconf-editor gedit-latex-plugin gedit-plugins giggle git-core gparted htop jdownloader latex-beamer libnss3-tools nmap ntfsprogs ntp openjdk-6-jre openssh-server osdlyrics panflute-applet pdfshuffler pidgin pwgen pyrenamer pyroom python-feedparser sgt-puzzles simple-ccsm skype synergy tasque texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison unison-gtk vim vlc xautomation xbindkeys xournal
+sudo apt-get -y install burg burg-themes chromium-browser-l10n chromium-codecs-ffmpeg compiz-fusion-plugins-extra faenza-icon-theme gparted   openjdk-6-jre osdlyrics pyroom simple-ccsm tasque 
 
-# MailNotify needs python-feedparser
-
-sudo burg-install "(hd0)"
-sudo update-burg
-
-sudo apt-get -y remove empathy empathy-common

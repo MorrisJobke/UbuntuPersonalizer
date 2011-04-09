@@ -7,15 +7,9 @@ TODO:
 - git clone git@github.com:kabum/MailNotify.git
 - git clone git@github.com:kabum/Skripte.git
 
-- Ubuntu Partner-Repositories hinzufügen (für Skype)
-
-- ./main
 - Autostart
 	Shortcuts (xbindkeys)
 	Mail Notify (/home/kabum/Projekte/MailNotify/main.py)
-- Einstellungen
-	Docky
-	Panflute
 - bevorzugte Anwendungen
 	Desktop Webmail
 - Pidgin-Log kopieren

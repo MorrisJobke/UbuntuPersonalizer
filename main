@@ -1,6 +1,0 @@
-#!/bin/sh
-
-./software
-./install_config
-./gconf
-./sym-link
