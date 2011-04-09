@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sudo apt-get update
+sudo apt-get -y upgrade
+
+sudo apt-get -y install chromium-browser compizconfig-settings-manager desktop-webmail discus gedit-plugins giggle htop jdownloader latex-beamer nmap ntfsprogs ntp openssh-server pdfshuffler pidgin sgt-puzzles synergy texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison-gtk vim vlc xautomation xbindkeys xournal
+
+sudo apt-get -y remove empathy empathy-common 

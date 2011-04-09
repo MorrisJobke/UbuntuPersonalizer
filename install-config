@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# trust cacert
+certutil -d sql:$HOME/.pki/nssdb -A -t "C,," -n cacert -i /etc/ssl/certs/cacert.org.pem
+
+echo "PS1='\u@\h \[\033[1;34m\]\w\[\033[0m\]\\$ '" >> ~/.bashrc
+
+cp ./dot-files/hidden ~/.hidden
+cp -R ./dot-files/icons ~/.icons
+cp -R ./dot-files/gnome2 ~/.gnome2
+
+sudo gtk-update-icon-cache
+
+chmod 700 ~/.ssh/id_dsa

@@ -1,0 +1,36 @@
+# Unison preferences file
+root = /home/kabum
+# root = ssh://raxxor.csn.tu-chemnitz.de//home/kabum
+root = ssh://helmut.local//home/kabum
+
+path = Bilder
+path = Dokumente
+path = Projekte
+path = Vorlagen
+path = .purple/logs
+path = .shotwell
+path = .ssh/config
+path = .local/share/tomboy
+
+ignore = Name {.git,.gitignore,*~,.Trash-1000,.*.swp}
+ignore = Name Dokumente/Schule
+ignore = Name Dokumente/Studium/01 - WS 2009-2010
+ignore = Name Dokumente/Studium/02 - SS 2010
+ignore = Name Projekte/CoverGrabber
+ignore = Name Projekte/CSN-Traffic
+ignore = Name Projekte/JavaInsel
+ignore = Name Projekte/MailNotify
+ignore = Name Projekte/pyJoin
+ignore = Name Projekte/RhythmRemote
+ignore = Name Projekte/Skripte
+ignore = Name Projekte/SWFM
+ignore = Name Projekte/UbuntuPersonalizer
+ignore = Name Projekte/VimConfig
+ignore = Name Projekte/WebSchach
+ignore = Name Projekte/WebSchach2
+ignore = Name Projekte/WebSchach3
+ignore = Name Projekte/WebSchachDesign
+ignore = Name Projekte/WebSchach (Kopie)
+ignore = Name Projekte/.metadata
+ignore = Name Bilder/Unsortierte
+ignore = Name Bilder/Wallpaper/Wikipedia-Panoramas

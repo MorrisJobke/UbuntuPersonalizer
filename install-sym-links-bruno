@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/unison /home/kabum/.unison
+ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/synergy.conf /home/kabum/.synergy.conf

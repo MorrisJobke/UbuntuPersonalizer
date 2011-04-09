@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir /home/kabum/Daten
+
+cat RAID-fstab | sudo tee -a /etc/fstab
