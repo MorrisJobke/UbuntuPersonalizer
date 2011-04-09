@@ -18,5 +18,3 @@ sed -e 's/Window\.SetBackgroundTopColor *(.*)/Window.SetBackgroundTopColor (0.00
 sed -e 's/Window\.SetBackgroundBottomColor *(.*)/Window.SetBackgroundBottomColor (0.00, 0.00, 0.00)/g' HoTh9the1a > uPh7Chuoqu
 sudo mv uPh7Chuoqu /lib/plymouth/themes/ubuntu-logo/ubuntu-logo.script
 rm HoTh9the1a
-
-./install-pidgin-icons-dark

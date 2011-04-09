@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./install-software-bruno
+./configure-raid
+./install-sym-links-bruno

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+./adding-ppas
+./install-software
+./install-config
+./configure-gconf
+./install-sym-links
