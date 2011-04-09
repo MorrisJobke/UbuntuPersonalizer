@@ -23,6 +23,7 @@ UbuntuPersonalizer for Natty
 * copy
 	* music
 	* Pidgin logs
+* UbuntuOne
 * [Pidgin embeddedvideo][1]
 * [Google calendar][2]
 
