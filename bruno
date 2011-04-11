@@ -2,4 +2,5 @@
 
 ./install-software-bruno
 ./configure-raid
+./install-config-bruno
 ./install-sym-links-bruno
