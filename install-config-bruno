@@ -3,5 +3,6 @@
 # lighttpd conf
 ln -s /home/kabum/Projekte/www/ public_html
 sudo lighty-enable-mod userdir
+sudo lighty-enable-mod fastcgi-php
 echo 'server.bind = "127.0.0.1"' | sudo tee -a /etc/lighttpd/lighttpd.conf
 sudo service lighttpd reload

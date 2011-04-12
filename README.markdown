@@ -46,6 +46,8 @@ Bruno
 	
 * autostart apps
 	* synergys
+
+* adding `mod_fastcgi` to `server.modules` in `/etc/lighttpd/lighttpd.conf`
 	
 Helmut
 ------
