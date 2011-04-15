@@ -53,3 +53,7 @@ gconftool-2 --type bool --set /apps/banshee-1/library/write_rating true
 gconftool-2 --type string --set /apps/banshee-1/playback/repeat_mode 'repeat_all'
 gconftool-2 --type string --set /apps/banshee-1/playback/shuffle_mode 'shuffle_song'
 gconftool-2 --type bool --set /apps/banshee-1/player_engine/replay_gain_enabled true
+
+# application switcher
+gconftool-2 --type int --set /apps/compiz-1/plugins/staticswitcher/screen0/options/brightness 50
+gconftool-2 --type int --set /apps/compiz-1/plugins/staticswitcher/screen0/options/highlight_mode 1
