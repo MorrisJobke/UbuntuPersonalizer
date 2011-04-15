@@ -14,6 +14,8 @@ sudo gtk-update-icon-cache
 
 chmod 700 ~/.ssh/id_dsa
 
+rm ~/examples.desktop
+
 # black plymouth
 sed -e 's/Window\.SetBackgroundTopColor *(.*)/Window.SetBackgroundTopColor (0.00, 0.00, 0.00)/g' /lib/plymouth/themes/ubuntu-logo/ubuntu-logo.script > HoTh9the1a
 sed -e 's/Window\.SetBackgroundBottomColor *(.*)/Window.SetBackgroundBottomColor (0.00, 0.00, 0.00)/g' HoTh9the1a > uPh7Chuoqu
