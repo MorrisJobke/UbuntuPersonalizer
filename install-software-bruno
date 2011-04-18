@@ -1,4 +1,4 @@
 #!/bin/sh
 
 sudo apt-get install mdadm --no-install-recommends
-sudo apt-get install -y lighttpd meld php5-cgi picard
+sudo apt-get install -y lighttpd meld php5-cgi picard samba system-config-samba

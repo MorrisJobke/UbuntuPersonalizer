@@ -17,6 +17,7 @@ gconftool-2 --type bool --set /apps/nautilus/preferences/enable_delete true
 gconftool-2 --type bool --set /apps/nautilus/preferences/media_automount_open false
 gconftool-2 --type bool --set /apps/nautilus/preferences/media_autorun_never true
 gconftool-2 --type bool --set /apps/nautilus/preferences/enable_delete true
+gconftool-2 --type bool --set /apps/nautilus/desktop/volumes_visible false
 
 # eog
 gconftool-2 --type list --list-type string --set /apps/eog/plugins/active_plugins [fullscreen,statusbar-date]

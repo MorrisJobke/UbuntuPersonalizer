@@ -5,6 +5,7 @@ Todo
 ----
 * shortcuts on Helmut
 * Unity settings
+* Picard
 
 Main
 ----
