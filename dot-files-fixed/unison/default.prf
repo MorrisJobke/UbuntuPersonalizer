@@ -22,6 +22,7 @@ ignore = Name Projekte/MailNotify
 ignore = Name Projekte/pyJoin
 ignore = Name Projekte/RhythmRemote
 ignore = Name Projekte/Skripte
+ignore = Name Projekte/SmartWFM
 ignore = Name Projekte/SWFM
 ignore = Name Projekte/UbuntuPersonalizer
 ignore = Name Projekte/VimConfig
