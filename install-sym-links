@@ -1,7 +1,9 @@
 #!/bin/sh
 
-ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/xbindkeysrc /home/kabum/.xbindkeysrc
-ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/gitconfig /home/kabum/.gitconfig
-ln -s ../Projekte/UbuntuPersonalizer/dot-files-fixed/sshconfig /home/kabum/.ssh/config
-ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/vimrc /home/kabum/.vimrc
-ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/vim /home/kabum/.vim
+# files
+ln -fs -T Projekte/UbuntuPersonalizer/dot-files-fixed/xbindkeysrc /home/kabum/.xbindkeysrc
+ln -fs -T Projekte/UbuntuPersonalizer/dot-files-fixed/gitconfig /home/kabum/.gitconfig
+ln -fs -T ../Projekte/UbuntuPersonalizer/dot-files-fixed/sshconfig /home/kabum/.ssh/config
+ln -fs -T Projekte/UbuntuPersonalizer/dot-files-fixed/vimrc /home/kabum/.vimrc
+# dirs
+ln -fs -t /home/kabum Projekte/UbuntuPersonalizer/dot-files-fixed/.vim

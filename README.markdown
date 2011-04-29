@@ -32,8 +32,7 @@ Main
 	* music
 	* Pidgin logs
 * UbuntuOne
-* [Pidgin embeddedvideo][1]
-* [Pidgin icon override][4]
+* [Pidgin icon override][1]
 * [Google calendar][2]
 
 
@@ -64,7 +63,6 @@ Helmut
 * [VPN][3]
 * energy managment
 
-[1]: http://linuxundich.de/de/ubuntu/videos-direkt-im-chat-fenster-von-pidgin-betrachten/
+[1]: http://code.google.com/p/pidgin-icon-override/
 [2]: http://linuxundich.de/de/ubuntu/google-kalender-in-gnome-integrieren/
 [3]: http://www.tu-chemnitz.de/urz/netz/vpn/vpnc.html
-[4]: http://code.google.com/p/pidgin-icon-override/

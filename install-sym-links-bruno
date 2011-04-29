@@ -1,4 +1,7 @@
 #!/bin/sh
 
-ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/unison /home/kabum/.unison
-ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/synergy.conf /home/kabum/.synergy.conf
+# files 
+ln -fs -T Projekte/UbuntuPersonalizer/dot-files-fixed/synergy.conf /home/kabum/.synergy.conf
+# dirs
+ln -fs -t /home/kabum Projekte/UbuntuPersonalizer/dot-files-fixed/.unison
+ln -fs -t /home/kabum/.config ../Projekte/UbuntuPersonalizer/dot-files-fixed/MusicBrainz
