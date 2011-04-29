@@ -3,3 +3,5 @@
 ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/xbindkeysrc /home/kabum/.xbindkeysrc
 ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/gitconfig /home/kabum/.gitconfig
 ln -s ../Projekte/UbuntuPersonalizer/dot-files-fixed/sshconfig /home/kabum/.ssh/config
+ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/vimrc /home/kabum/.vimrc
+ln -s Projekte/UbuntuPersonalizer/dot-files-fixed/vim /home/kabum/.vim
