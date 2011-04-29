@@ -3,8 +3,8 @@ UbuntuPersonalizer for Natty
 
 Todo
 ----
+
 * shortcuts on Helmut
-* Picard
 
 Main
 ----
