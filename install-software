@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# partner sources
+sed -e 's!# deb http://archive.canonical.com/ubuntu natty partner!deb http://archive.canonical.com/ubuntu natty partner!g' /etc/apt/sources.list > HoTh9the1a
+sed -e 's!# deb-src http://archive.canonical.com/ubuntu natty partner!deb-src http://archive.canonical.com/ubuntu natty partner!g' HoTh9the1a > uPh7Chuoqu
+sudo mv uPh7Chuoqu /etc/apt/sources.list
+
 sudo apt-get update
 sudo apt-get -y upgrade
 
