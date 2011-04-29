@@ -12,6 +12,7 @@ path = .shotwell
 path = .local/share/tomboy
 
 ignore = Name {.git,.gitignore,*~,.Trash-1000,.*.swp}
+ignore = Name Dokumente/Projekte-Archiv
 ignore = Name Dokumente/Schule
 ignore = Name Dokumente/Studium/01 - WS 2009-2010
 ignore = Name Dokumente/Studium/02 - SS 2010
