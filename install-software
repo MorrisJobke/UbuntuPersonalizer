@@ -1,9 +1,14 @@
 #!/bin/sh
 
+# partner sources
+sed -e 's!# deb http://archive.canonical.com/ubuntu natty partner!deb http://archive.canonical.com/ubuntu natty partner!g' /etc/apt/sources.list > HoTh9the1a
+sed -e 's!# deb-src http://archive.canonical.com/ubuntu natty partner!deb-src http://archive.canonical.com/ubuntu natty partner!g' HoTh9the1a > uPh7Chuoqu
+sudo mv uPh7Chuoqu /etc/apt/sources.list
+
 sudo apt-get update
 sudo apt-get -y upgrade
 
-sudo apt-get -y install chromium-browser compizconfig-settings-manager desktop-webmail discus gconf-editor gedit-plugins giggle git-core htop jdownloader latex-beamer libnss3-tools nmap ntfsprogs ntp openssh-server pdfshuffler pidgin pinta pwgen pyrenamer python-feedparser since skype sgt-puzzles synergy texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison-gtk vim vlc xautomation xbindkeys xournal
+sudo apt-get -y install chromium-browser compizconfig-settings-manager desktop-webmail discus faenza-icon-theme gconf-editor gedit-plugins giggle git-core htop jdownloader latex-beamer libnss3-tools nmap ntfsprogs ntp openssh-server pdfshuffler pidgin pinta pwgen pyrenamer python-feedparser since skype sgt-puzzles synergy texlive-full tree ubuntu-restricted-extras ubuntu-tweak unison-gtk vim vlc xautomation xbindkeys xournal
 
 # MailNotify needs python-feedparser
 

@@ -6,3 +6,5 @@ sudo add-apt-repository ppa:chromium-daily/ppa
 sudo add-apt-repository ppa:jd-team/jdownloader
 ##### ubuntu tweak #####
 sudo add-apt-repository ppa:tualatrix/ppa
+##### faenza-icons #####
+sudo add-apt-repository ppa:tiheum/equinox

@@ -4,7 +4,6 @@ UbuntuPersonalizer for Natty
 Todo
 ----
 * shortcuts on Helmut
-* Unity settings
 * Picard
 
 Main

@@ -58,3 +58,9 @@ gconftool-2 --type bool --set /apps/banshee-1/player_engine/replay_gain_enabled 
 # application switcher
 gconftool-2 --type int --set /apps/compiz-1/plugins/staticswitcher/screen0/options/brightness 50
 gconftool-2 --type int --set /apps/compiz-1/plugins/staticswitcher/screen0/options/highlight_mode 1
+
+# unity
+gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/launcher_hide_mode 0
+gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/backlight_mode 1
+gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/icon_size 32
+gconftool-2 --type float --set /apps/compiz-1/plugins/unityshell/screen0/options/panel_opacity 0.5
