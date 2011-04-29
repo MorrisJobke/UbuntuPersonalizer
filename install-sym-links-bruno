@@ -5,3 +5,5 @@ ln -fs -T Projekte/UbuntuPersonalizer/dot-files-fixed/synergy.conf /home/kabum/.
 # dirs
 ln -fs -t /home/kabum Projekte/UbuntuPersonalizer/dot-files-fixed/.unison
 ln -fs -t /home/kabum/.config ../Projekte/UbuntuPersonalizer/dot-files-fixed/MusicBrainz
+rm -f /home/kabum/public_html
+ln -fs Projekte/www /home/kabum/public_html
