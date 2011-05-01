@@ -4,5 +4,5 @@
 gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/launcher_hide_mode 1
 
 #shortcuts
-gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_12 '<Super>adiaeresis'
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_12 '<Control><Alt>adiaeresis'
 gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_12 '~/Projekte/Skripte/SynergyClient.sh'
