@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# unity
+gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/launcher_hide_mode 1

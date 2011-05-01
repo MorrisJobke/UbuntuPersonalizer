@@ -2,3 +2,4 @@
 
 ./install-software-helmut
 ./install-config-helmut
+./configure-gconf-helmut

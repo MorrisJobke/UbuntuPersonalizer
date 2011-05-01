@@ -64,3 +64,6 @@ gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/l
 gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/backlight_mode 1
 gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/icon_size 32
 gconftool-2 --type float --set /apps/compiz-1/plugins/unityshell/screen0/options/panel_opacity 0.5
+
+#scale plugin - compiz
+gconftool-2 --type string --set /apps/compiz-1/plugins/scale/screen0/options/initiate_edge 'BottomLeft'
