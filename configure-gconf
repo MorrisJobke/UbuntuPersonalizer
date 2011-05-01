@@ -73,3 +73,10 @@ gconftool-2 --type bool --set /apps/gnome-session/options/auto_save_session true
 
 # menus have icons
 gconftool-2 --type bool --set /desktop/gnome/interface/menus_have_icons true
+
+#shortcuts
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_1 '<Super>e'
+gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_2 '<Super>r'
+
+gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_1 'nautilus'
+gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 'gedit'
