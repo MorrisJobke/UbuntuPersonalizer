@@ -64,3 +64,9 @@ gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/l
 gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/backlight_mode 1
 gconftool-2 --type int --set /apps/compiz-1/plugins/unityshell/screen0/options/icon_size 32
 gconftool-2 --type float --set /apps/compiz-1/plugins/unityshell/screen0/options/panel_opacity 0.5
+
+# auto save session
+gconftool-2 --type bool --set /apps/gnome-session/options/auto_save_session true
+
+# menus have icons
+gconftool-2 --type bool --set /desktop/gnome/interface/menus_have_icons true
