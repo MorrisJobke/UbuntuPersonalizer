@@ -23,8 +23,9 @@ gconftool-2 --type bool --set /apps/nautilus/desktop/volumes_visible false
 gconftool-2 --type list --list-type string --set /apps/eog/plugins/active_plugins [fullscreen,statusbar-date]
 gconftool-2 --type bool --set /apps/eog/ui/disable_trash_confirmation true 
 
-# disable screensaver lock
+# disable screensaver
 gconftool-2 --type bool --set /apps/gnome-screensaver/lock_enabled false
+gconftool-2 --type bool --set /apps/gnome-screensaver/idle_activation_enabled false
 
 # gnome-terminal
 gconftool-2 --type bool --set /apps/gnome-terminal/profiles/Default/use_theme_colors false
