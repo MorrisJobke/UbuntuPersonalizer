@@ -67,3 +67,9 @@ gconftool-2 --type float --set /apps/compiz-1/plugins/unityshell/screen0/options
 
 #scale plugin - compiz
 gconftool-2 --type string --set /apps/compiz-1/plugins/scale/screen0/options/initiate_edge 'BottomLeft'
+
+# auto save session
+gconftool-2 --type bool --set /apps/gnome-session/options/auto_save_session true
+
+# menus have icons
+gconftool-2 --type bool --set /desktop/gnome/interface/menus_have_icons true
