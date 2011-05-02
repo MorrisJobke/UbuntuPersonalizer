@@ -28,6 +28,7 @@ Main
 * autostart apps
 	* shortcuts (`xbindkeys`)
 	* MailNotify (`/home/kabum/Projekte/MailNotify/main.py`)
+	* indicator sysmonitor (`indicator-sysmonitor`)
 * copy
 	* music
 	* Pidgin logs

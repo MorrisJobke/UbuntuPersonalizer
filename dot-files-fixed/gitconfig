@@ -9,3 +9,8 @@
 	ui = auto
 [core]
 	editor = vim
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 469x238+866+24
+	main-window-view = HistoryView
+	history-view-vpane-position = 743
