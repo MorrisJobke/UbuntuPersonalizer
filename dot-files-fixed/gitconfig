@@ -11,6 +11,6 @@
 	editor = vim
 [giggle]
 	main-window-maximized = true
-	main-window-geometry = 469x238+866+24
+	main-window-geometry = 0x0+0+0
 	main-window-view = HistoryView
-	history-view-vpane-position = 743
+	history-view-vpane-position = 493
