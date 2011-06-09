@@ -5,4 +5,7 @@
 # native BACKWARD button
 "xte 'keydown Alt_L' 'key Left' 'keyup Alt_L'"
 	b:8 # button 8
+
+"/home/kabum/Projekte/Skripte/RotateIt.sh"
+	c:161
 	

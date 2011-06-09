@@ -77,11 +77,11 @@ gconftool-2 --type bool --set /apps/gnome-session/options/auto_save_session true
 gconftool-2 --type bool --set /desktop/gnome/interface/menus_have_icons true
 
 #shortcuts
-gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_1 '<Control><Alt>e'
-gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_2 '<Control><Alt>r'
-
-gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_1 'nautilus'
-gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 'gedit'
+#gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_1 '<Control><Alt>e'
+#gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_2 '<Control><Alt>r'
+#
+#gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_1 'nautilus'
+#gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 'gedit'
 
 # application switcher
 gconftool-2 --type float --set /apps/compiz-1/plugins/staticswitcher/screen0/options/popup_delay 0.0
