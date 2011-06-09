@@ -11,7 +11,7 @@ path = .purple/logs
 path = .shotwell
 path = .local/share/tomboy
 
-ignore = Name {.git,.gitignore,*~,.Trash-1000,.*.swp}
+ignore = Name {.git,.gitignore,.*~,*~,.Trash-1000,.*.swp}
 ignore = Name Dokumente/Gunter
 ignore = Name Dokumente/JG
 ignore = Name Dokumente/Projekte-Archiv
@@ -22,6 +22,7 @@ ignore = Name Dokumente/Sonstiges
 ignore = Name Dokumente/Studium/01 - WS 2009-2010
 ignore = Name Dokumente/Studium/02 - SS 2010
 ignore = Name Dokumente/Studium/03 - WS 2010-2011
+ignore = Name Dokumente/Studium/04 - SS 2011/Betriebssysteme/Übung
 ignore = Name Dokumente/Studium/Altes Zeugs
 ignore = Name Projekte/MailNotify
 ignore = Name Projekte/Skripte

@@ -3,7 +3,7 @@ Host bruno
 	HostName mjbk.csn.tu-chemnitz.de
 	User kabum
 Host helmut
-	HostName raxxor.csn.tu-chemnitz.de
+	HostName helmut.local
 	User kabum
 Host uni
 	HostName way.hrz.tu-chemnitz.de
@@ -29,3 +29,6 @@ Host bocki
 Host eckat
 	HostName webschach.net
 	Port 53876
+Host thrymheim
+	HostName webschach.net
+	Port 22

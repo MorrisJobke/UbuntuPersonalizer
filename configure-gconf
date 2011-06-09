@@ -55,6 +55,7 @@ gconftool-2 --type bool --set /apps/banshee-1/library/write_rating true
 gconftool-2 --type string --set /apps/banshee-1/playback/repeat_mode 'repeat_all'
 gconftool-2 --type string --set /apps/banshee-1/playback/shuffle_mode 'shuffle_song'
 gconftool-2 --type bool --set /apps/banshee-1/player_engine/replay_gain_enabled true
+gconftool-2 --type bool --set /apps/banshee-1/library/write_rating false
 
 # application switcher
 gconftool-2 --type int --set /apps/compiz-1/plugins/staticswitcher/screen0/options/brightness 50
@@ -81,3 +82,6 @@ gconftool-2 --type string --set /apps/metacity/global_keybindings/run_command_2 
 
 gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_1 'nautilus'
 gconftool-2 --type string --set /apps/metacity/keybinding_commands/command_2 'gedit'
+
+# application switcher
+gconftool-2 --type float --set /apps/compiz-1/plugins/staticswitcher/screen0/options/popup_delay 0.0

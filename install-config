@@ -4,6 +4,7 @@
 certutil -d sql:$HOME/.pki/nssdb -A -t "C,," -n cacert -i /etc/ssl/certs/cacert.org.pem
 
 echo "PS1='\u@\h \[\033[1;34m\]\w\[\033[0m\]\\$ '" >> ~/.bashrc
+echo 'alias sau="sudo apt-get update && sudo apt-get upgrade"' >> ~/.bashrc
 
 cp ./dot-files/hidden ~/.hidden
 cp -R ./dot-files/icons ~/.icons
