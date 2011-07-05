@@ -32,3 +32,5 @@ Host thrymheim
 Host schwarzalbenheim
 	Hostname 192.168.1.1
 	User root
+Host wigrid
+	HostName 192.168.1.111
