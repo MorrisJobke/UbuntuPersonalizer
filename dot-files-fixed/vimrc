@@ -1,14 +1,31 @@
+" line number
 set number
+"
 syntax on
+"
 set enc=utf-8
+" color theme
 colorscheme wombat256mod
+" 1 tab == 4 spaces
 set tabstop=4
+"
 set softtabstop=4
+" adjust status line (second from bottom ;))
 set statusline=%F%m%r%h%w\ \|\ %{&ff}\ \|\ %Y\ %=\[%l\/%L\|%v\]%3p%%
+"
 set t_Co=256
+"
 set laststatus=2
+"
 set shiftwidth=4
+"
 set mouse=a
+"
 set smartindent
+" 
 set autoindent
+" 
 set foldmethod=syntax
+
+" iterate through tabs with Ctrl + n
+map <C-n> :tabnext<CR>
