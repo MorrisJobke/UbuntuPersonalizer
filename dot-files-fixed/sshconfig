@@ -1,8 +1,38 @@
 # ssh (secure shell) configuration file
-Host bruno
+# desktop - BRUNO
+Host bruno-global
 	HostName mjbk.csn.tu-chemnitz.de
+	Port 2222
+Host bruno
+	HostName bruno.local
+
+# NAS - WIGRID
+Host wigrid-global
+	HostName mjbk.csn.tu-chemnitz.de
+Host wigrid
+	HostName wigrid.local
+
+# laptop - HELMUT
 Host helmut
 	HostName helmut.local
+
+# router - SCHWARZALBENHEIM
+Host schwarzalbenheim
+	Hostname 192.168.1.1
+	User root
+
+# vServer - THRYMHEIM
+Host thrymheim_alt
+	HostName webschach.net
+Host thrymheim
+	HostName 78.47.199.161
+
+# CSN
+Host bocki
+	HostName bocki.csn.tu-chemnitz.de
+	User bocki
+
+# uni
 Host uni
 	HostName way.hrz.tu-chemnitz.de
 	User mjob
@@ -11,21 +41,11 @@ Host uni2
 	HostName login.tu-chemnitz.de
 	User mjob
 	ServerAliveInterval 10
+
+# home
 Host mutti
 	HostName ramona-desktop.local
 	User ramona
 Host idefix
 	HostName 192.168.178.20
 	User jobke
-Host bocki
-	HostName bocki.csn.tu-chemnitz.de
-	User bocki
-Host schwarzalbenheim
-	Hostname 192.168.1.1
-	User root
-Host thrymheim_alt
-	HostName webschach.net
-Host wigrid
-	HostName wigrid.local
-Host thrymheim
-	HostName 78.47.199.161
