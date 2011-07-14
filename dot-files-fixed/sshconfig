@@ -1,13 +1,8 @@
 # ssh (secure shell) configuration file
 Host bruno
 	HostName mjbk.csn.tu-chemnitz.de
-	User kabum
-Host bruno-local
-	HostName bruno.local
-	User kabum
 Host helmut
 	HostName helmut.local
-	User kabum
 Host uni
 	HostName way.hrz.tu-chemnitz.de
 	User mjob
@@ -22,15 +17,15 @@ Host mutti
 Host idefix
 	HostName 192.168.178.20
 	User jobke
-	User kabum
 Host bocki
 	HostName bocki.csn.tu-chemnitz.de
 	User bocki
-Host thrymheim
-	HostName webschach.net
-	Port 22
 Host schwarzalbenheim
 	Hostname 192.168.1.1
 	User root
+Host thrymheim_alt
+	HostName webschach.net
 Host wigrid
-	HostName 192.168.1.111
+	HostName wigrid.local
+Host thrymheim
+	HostName 78.47.199.161
