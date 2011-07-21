@@ -8,4 +8,12 @@
 
 "/home/kabum/Projekte/Skripte/RotateIt.sh"
 	c:161
+
+"banshee --next"
+	control + alt + plus
 	
+"banshee --previous"
+	control + alt + minus
+
+"banshee --toggle-playing"
+	control + alt + numbersign
