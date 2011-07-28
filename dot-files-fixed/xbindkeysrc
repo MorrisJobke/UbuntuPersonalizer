@@ -9,11 +9,11 @@
 "/home/kabum/Projekte/Skripte/RotateIt.sh"
 	c:161
 
-"banshee --next"
+"rhythmbox-client --next"
 	control + alt + plus
 	
-"banshee --previous"
+"rhythmbox-client --previous"
 	control + alt + minus
 
-"banshee --toggle-playing"
+"rhythmbox-client --play-pause"
 	control + alt + numbersign
