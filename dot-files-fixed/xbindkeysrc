@@ -11,3 +11,12 @@
 
 "rhythmbox-client --notify"
 	c:148
+
+"rhythmbox-client --next"
+	control + alt + plus
+	
+"rhythmbox-client --previous"
+	control + alt + minus
+
+"rhythmbox-client --play-pause"
+	control + alt + numbersign
