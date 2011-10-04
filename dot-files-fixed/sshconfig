@@ -28,8 +28,12 @@ Host thrymheim
 	HostName 78.47.199.161
 
 # CSN
+Host csn
+	Hostname csn-server.csn.tu-chemnitz.de
+	User mjob
+
 Host bocki
-	HostName bocki.csn.tu-chemnitz.de
+	HostName bockips3.csn.tu-chemnitz.de
 	User bocki
 
 # uni
